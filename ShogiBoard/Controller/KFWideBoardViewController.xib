@@ -1,0 +1,1005 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7702" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7701"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="KFBoardViewController">
+            <connections>
+                <outlet property="admobBottomBannerView" destination="vru-gg-PRi" id="7CG-Pj-UR5"/>
+                <outlet property="admobTopBannerView" destination="LmG-D5-vX3" id="YaK-jR-VIW"/>
+                <outlet property="boardNavigationItem" destination="82P-jf-yaA" id="g7o-SR-bSZ"/>
+                <outlet property="boardView" destination="D0M-sR-mOi" id="csb-kM-yPo"/>
+                <outlet property="commentButton" destination="yXJ-dc-WCB" id="uUo-wy-SCg"/>
+                <outlet property="counterSidePlayerLabel" destination="qnQ-TY-FUF" id="KC2-gj-dZu"/>
+                <outlet property="counterSideStandView" destination="lQy-FR-F46" id="0zz-Wy-Tyo"/>
+                <outlet property="matchTitleLabel" destination="jJb-79-Mo2" id="N1c-UT-I05"/>
+                <outlet property="navigationBar" destination="86N-FM-BVe" id="Ap2-12-jdl"/>
+                <outlet property="recordTitleButtonItem" destination="ei4-Sg-EJ3" id="fyn-bg-m2e"/>
+                <outlet property="recordToolBar" destination="K1y-gH-Ug0" id="7gu-ug-uIn"/>
+                <outlet property="sideForwardButton" destination="DBA-3y-nak" id="qbb-Hs-xc2"/>
+                <outlet property="sideRewindButton" destination="XL9-fd-WEp" id="8Km-9x-aZE"/>
+                <outlet property="square11" destination="TQk-Sh-UgV" id="zdL-R1-Ss0"/>
+                <outlet property="square12" destination="89j-5U-KPV" id="gM7-zI-Jir"/>
+                <outlet property="square13" destination="AMd-WF-fd3" id="MLJ-a8-fvC"/>
+                <outlet property="square14" destination="3pe-GN-F8o" id="LXT-f5-BEp"/>
+                <outlet property="square15" destination="SQI-eE-vrP" id="RFN-UC-swa"/>
+                <outlet property="square16" destination="0JS-3c-nYO" id="xpU-gJ-Jg8"/>
+                <outlet property="square17" destination="19K-uf-t8V" id="rwl-Y7-yGd"/>
+                <outlet property="square18" destination="AU7-GV-mim" id="Oht-yy-6sv"/>
+                <outlet property="square19" destination="9yh-ef-nAt" id="B7S-Pl-zhe"/>
+                <outlet property="square21" destination="GGE-hI-7z1" id="afr-LC-glG"/>
+                <outlet property="square22" destination="lIJ-Vl-t6O" id="zRx-TW-cZO"/>
+                <outlet property="square23" destination="tXT-zA-jTg" id="Wxm-pT-9nh"/>
+                <outlet property="square24" destination="v0l-gd-u4O" id="Tl4-FW-bVc"/>
+                <outlet property="square25" destination="qds-9d-PK8" id="Iv4-xc-7Rh"/>
+                <outlet property="square26" destination="D83-4b-OyZ" id="i3a-VE-nAe"/>
+                <outlet property="square27" destination="KZL-VL-H7J" id="Wlr-5T-DnE"/>
+                <outlet property="square28" destination="puq-cM-wrO" id="Zt3-0b-ivW"/>
+                <outlet property="square29" destination="5Nl-hg-MyD" id="Ksq-aj-1xz"/>
+                <outlet property="square31" destination="0DV-Op-lPi" id="OhJ-yf-5Z9"/>
+                <outlet property="square32" destination="Lw7-i1-pA8" id="KOg-RZ-fyE"/>
+                <outlet property="square33" destination="eCC-4O-Zoi" id="xBa-pa-dAm"/>
+                <outlet property="square34" destination="yhd-hG-Bfx" id="3Ur-JJ-uFN"/>
+                <outlet property="square35" destination="WXm-ai-oyW" id="1Br-Bc-Loq"/>
+                <outlet property="square36" destination="Ozr-Kh-bba" id="fNn-fo-Afy"/>
+                <outlet property="square37" destination="dcv-HE-fK1" id="DKA-Xb-2xG"/>
+                <outlet property="square38" destination="hdk-iV-I6h" id="JhT-jE-RMs"/>
+                <outlet property="square39" destination="6W2-hY-xa9" id="b51-Zq-m9s"/>
+                <outlet property="square41" destination="5bk-1E-enA" id="kQU-Rl-djK"/>
+                <outlet property="square42" destination="kSE-JS-yE8" id="tab-1R-NG1"/>
+                <outlet property="square43" destination="0hs-3V-51k" id="yc1-Pa-0YV"/>
+                <outlet property="square44" destination="PF5-1E-zkl" id="Gh5-2E-c4M"/>
+                <outlet property="square45" destination="4md-U5-uBf" id="hhF-KW-qw5"/>
+                <outlet property="square46" destination="NVZ-xN-nLD" id="vMZ-PI-Y2q"/>
+                <outlet property="square47" destination="A9j-qN-wlF" id="DPT-jo-dkM"/>
+                <outlet property="square48" destination="5VX-hJ-Cds" id="Ewj-1c-jZh"/>
+                <outlet property="square49" destination="AdU-9a-7Hu" id="bhc-1C-t8s"/>
+                <outlet property="square51" destination="GWh-9p-XQC" id="XYd-oI-0mM"/>
+                <outlet property="square52" destination="5C5-b5-CdR" id="OCK-EN-xHG"/>
+                <outlet property="square53" destination="vWj-St-X2A" id="fzz-oj-rKn"/>
+                <outlet property="square54" destination="KhN-vt-LHZ" id="u8E-k7-NWd"/>
+                <outlet property="square55" destination="cYk-4Y-Hzf" id="YXC-dv-nH9"/>
+                <outlet property="square56" destination="hQI-Me-NA6" id="Hjj-SB-evV"/>
+                <outlet property="square57" destination="G9F-hb-2U0" id="un5-B5-lgj"/>
+                <outlet property="square58" destination="caL-Pr-uYo" id="YN6-Zl-4Xb"/>
+                <outlet property="square59" destination="ZsQ-ll-KIy" id="nts-0B-N6l"/>
+                <outlet property="square61" destination="2zc-gp-S9T" id="VpU-4J-Mve"/>
+                <outlet property="square62" destination="Hyj-qc-yDk" id="0g0-1q-kqN"/>
+                <outlet property="square63" destination="5bg-OS-A9Y" id="yac-sh-ErE"/>
+                <outlet property="square64" destination="h2J-NR-tal" id="O9N-aH-sPB"/>
+                <outlet property="square65" destination="cHm-t9-NzJ" id="AG8-I0-eA4"/>
+                <outlet property="square66" destination="yyx-ji-r6O" id="ph8-WD-xVf"/>
+                <outlet property="square67" destination="WtB-h7-oIj" id="z18-mC-gYe"/>
+                <outlet property="square68" destination="G8o-Pw-Q4W" id="d2B-PD-3KT"/>
+                <outlet property="square69" destination="Clu-20-JJv" id="9NN-Hu-UKu"/>
+                <outlet property="square71" destination="PWp-55-U8a" id="DRJ-WW-fxv"/>
+                <outlet property="square72" destination="Rr5-e9-LAr" id="UzK-PT-zu8"/>
+                <outlet property="square73" destination="PaV-aL-I0b" id="WvX-W4-whI"/>
+                <outlet property="square74" destination="zk1-lT-a6J" id="lfV-Qg-0Ny"/>
+                <outlet property="square75" destination="9X3-Vr-aE2" id="hBk-cI-nFu"/>
+                <outlet property="square76" destination="D4h-yn-mzf" id="2Nx-qs-24x"/>
+                <outlet property="square77" destination="KOz-z1-okf" id="cig-b2-WqH"/>
+                <outlet property="square78" destination="12N-sO-tLB" id="Kr2-PJ-B5b"/>
+                <outlet property="square79" destination="p5A-pT-sbo" id="viO-Uf-xgB"/>
+                <outlet property="square81" destination="B2E-VD-m1Q" id="j13-7s-lBa"/>
+                <outlet property="square82" destination="4B3-cf-l50" id="0EO-iN-a1X"/>
+                <outlet property="square83" destination="H7e-Hh-PuT" id="tRc-3e-OP1"/>
+                <outlet property="square84" destination="Ju2-Rz-qgm" id="UKY-7T-Nnu"/>
+                <outlet property="square85" destination="zHc-NS-AFh" id="fPO-es-b1U"/>
+                <outlet property="square86" destination="Z68-MN-xag" id="Rsk-Po-a8n"/>
+                <outlet property="square87" destination="jTV-bn-6PL" id="yp0-S6-rAy"/>
+                <outlet property="square88" destination="AJc-R2-tGs" id="pbp-Wd-ZnQ"/>
+                <outlet property="square89" destination="CWM-P0-TsC" id="mE0-jz-2p1"/>
+                <outlet property="square91" destination="ncL-js-Vwx" id="5ea-GC-2n6"/>
+                <outlet property="square92" destination="zrD-4I-Mbc" id="gpj-Yf-bwF"/>
+                <outlet property="square93" destination="UEl-IJ-nbE" id="cRJ-N8-vGO"/>
+                <outlet property="square94" destination="gzC-8e-Xel" id="eme-A0-3P0"/>
+                <outlet property="square95" destination="iw9-vR-Mez" id="ESg-ga-EQK"/>
+                <outlet property="square96" destination="I9v-ra-p5O" id="kks-gT-KNL"/>
+                <outlet property="square97" destination="vFM-pn-BQv" id="OAm-Dj-2fA"/>
+                <outlet property="square98" destination="18E-6O-PkY" id="zdP-zb-fjb"/>
+                <outlet property="square99" destination="abr-Yy-fd8" id="O9d-Dc-VoZ"/>
+                <outlet property="thisSidePlayerLabel" destination="Xeg-io-g5W" id="y3o-ee-rWd"/>
+                <outlet property="thisSideStandView" destination="so8-OA-htR" id="e6y-dx-eGW"/>
+                <outlet property="view" destination="1" id="3"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="1">
+            <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="mokume3.png" translatesAutoresizingMaskIntoConstraints="NO" id="khm-id-XH9" userLabel="BG Image View - mokume3.png">
+                    <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jJb-79-Mo2" userLabel="Label - Match title">
+                    <rect key="frame" x="50" y="0.0" width="668" height="90"/>
+                    <fontDescription key="fontDescription" type="boldSystem" pointSize="24"/>
+                    <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="D0M-sR-mOi" userLabel="Board View">
+                    <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                    <subviews>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="japanese-chess-b02.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="dnT-Vs-W8I">
+                            <rect key="frame" x="34" y="128" width="700" height="768"/>
+                        </imageView>
+                        <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="so8-OA-htR" userLabel="This side stand View">
+                            <rect key="frame" x="80" y="895" width="650" height="80"/>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        </view>
+                        <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="lQy-FR-F46" userLabel="Counter side standView">
+                            <rect key="frame" x="50" y="44" width="650" height="80"/>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        </view>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="▲甲斐智美倉敷藤花" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Xeg-io-g5W">
+                            <rect key="frame" x="35" y="910" width="190" height="60"/>
+                            <fontDescription key="fontDescription" type="boldSystem" pointSize="21"/>
+                            <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="△矢内理恵子女流王将" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qnQ-TY-FUF">
+                            <rect key="frame" x="560" y="60" width="190" height="60"/>
+                            <fontDescription key="fontDescription" type="boldSystem" pointSize="21"/>
+                            <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" placeholderIntrinsicWidth="50" placeholderIntrinsicHeight="50" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="detailDisclosure" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yXJ-dc-WCB" userLabel="Comment Button">
+                            <rect key="frame" x="720" y="930" width="30" height="30"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                            <color key="tintColor" red="0.50263247282608692" green="0.50263247282608692" blue="0.50263247282608692" alpha="1" colorSpace="calibratedRGB"/>
+                            <connections>
+                                <action selector="showComment:" destination="-1" eventType="touchUpInside" id="9X4-UN-pnF"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TQk-Sh-UgV" userLabel="Button - 11" customClass="KFSquareButton">
+                            <rect key="frame" x="628" y="162" width="70" height="80"/>
+                            <state key="normal" image="g_kyo.png">
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="square11tapped:" destination="-1" eventType="touchUpInside" id="qIV-U3-xOV"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="89j-5U-KPV" userLabel="Button - 12" customClass="KFSquareButton">
+                            <rect key="frame" x="628" y="239" width="70" height="80"/>
+                            <state key="normal">
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="square12tapped:" destination="-1" eventType="touchUpInside" id="gcK-cq-jRb"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AMd-WF-fd3" userLabel="Button - 13" customClass="KFSquareButton">
+                            <rect key="frame" x="628" y="316" width="70" height="80"/>
+                            <state key="normal" image="g_fu.png">
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="square13tapped:" destination="-1" eventType="touchUpInside" id="Gp6-Pq-MxJ"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3pe-GN-F8o" userLabel="Button - 14" customClass="KFSquareButton">
+                            <rect key="frame" x="628" y="393" width="70" height="80"/>
+                            <state key="normal">
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="square14tapped:" destination="-1" eventType="touchUpInside" id="0zL-Lj-XHP"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SQI-eE-vrP" userLabel="Button - 15" customClass="KFSquareButton">
+                            <rect key="frame" x="628" y="470" width="70" height="80"/>
+                            <state key="normal">
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="square15tapped:" destination="-1" eventType="touchUpInside" id="tkx-CD-pod"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0JS-3c-nYO" userLabel="Button - 16" customClass="KFSquareButton">
+                            <rect key="frame" x="628" y="546" width="70" height="80"/>
+                            <state key="normal">
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="square16tapped:" destination="-1" eventType="touchUpInside" id="6Qa-AJ-UrL"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="19K-uf-t8V" userLabel="Button - 17" customClass="KFSquareButton">
+                            <rect key="frame" x="628" y="624" width="70" height="80"/>
+                            <state key="normal" image="s_fu.png">
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="square17tapped:" destination="-1" eventType="touchUpInside" id="KIi-sS-OZf"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AU7-GV-mim" userLabel="Button - 18" customClass="KFSquareButton">
+                            <rect key="frame" x="628" y="700" width="70" height="80"/>
+                            <state key="normal">
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="square18tapped:" destination="-1" eventType="touchUpInside" id="dH7-Ql-RrT"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9yh-ef-nAt" userLabel="Button - 19" customClass="KFSquareButton">
+                            <rect key="frame" x="628" y="778" width="70" height="80"/>
+                            <state key="normal" image="s_kyo.png">
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="square19tapped:" destination="-1" eventType="touchUpInside" id="WFq-lJ-Wfg"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GGE-hI-7z1" userLabel="Button - 21" customClass="KFSquareButton">
+                            <rect key="frame" x="558" y="162" width="70" height="80"/>
+                            <state key="normal" image="g_kei.png">
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="square21tapped:" destination="-1" eventType="touchUpInside" id="jOL-aY-Sbj"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lIJ-Vl-t6O" userLabel="Button - 22" customClass="KFSquareButton">
+                            <rect key="frame" x="558" y="239" width="70" height="80"/>
+                            <state key="normal" image="g_kaku.png">
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="square22tapped:" destination="-1" eventType="touchUpInside" id="udV-h3-xos"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tXT-zA-jTg" userLabel="Button - 23" customClass="KFSquareButton">
+                            <rect key="frame" x="558" y="316" width="70" height="80"/>
+                            <state key="normal" image="g_fu.png">
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="square23tapped:" destination="-1" eventType="touchUpInside" id="ADD-a1-rbM"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="v0l-gd-u4O" userLabel="Button - 24" customClass="KFSquareButton">
+                            <rect key="frame" x="558" y="393" width="70" height="80"/>
+                            <state key="normal">
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="square24tapped:" destination="-1" eventType="touchUpInside" id="dX3-X2-ffO"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qds-9d-PK8" userLabel="Button - 25" customClass="KFSquareButton">
+                            <rect key="frame" x="558" y="470" width="70" height="80"/>
+                            <state key="normal">
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="square25tapped:" destination="-1" eventType="touchUpInside" id="72n-HP-4Te"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="D83-4b-OyZ" userLabel="Button - 26" customClass="KFSquareButton">
+                            <rect key="frame" x="558" y="546" width="70" height="80"/>
+                            <state key="normal">
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="square26tapped:" destination="-1" eventType="touchUpInside" id="nwq-ZJ-638"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KZL-VL-H7J" userLabel="Button - 27" customClass="KFSquareButton">
+                            <rect key="frame" x="558" y="624" width="70" height="80"/>
+                            <state key="normal" image="s_fu.png">
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="square27tapped:" destination="-1" eventType="touchUpInside" id="xfk-lk-fDo"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="puq-cM-wrO" userLabel="Button - 28" customClass="KFSquareButton">
+                            <rect key="frame" x="558" y="700" width="70" height="80"/>
+                            <state key="normal" image="s_hisha.png">
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="square28tapped:" destination="-1" eventType="touchUpInside" id="UaC-CQ-iYi"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5Nl-hg-MyD" userLabel="Button - 29" customClass="KFSquareButton">
+                            <rect key="frame" x="558" y="778" width="70" height="80"/>
+                            <state key="normal" image="s_kei.png">
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="square29tapped:" destination="-1" eventType="touchUpInside" id="9Qi-Bq-ngF"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0DV-Op-lPi" userLabel="Button - 31" customClass="KFSquareButton">
+                            <rect key="frame" x="489" y="162" width="70" height="80"/>
+                            <state key="normal" image="g_gin.png">
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="square31tapped:" destination="-1" eventType="touchUpInside" id="Qfc-hP-a7f"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Lw7-i1-pA8" userLabel="Button - 32" customClass="KFSquareButton">
+                            <rect key="frame" x="489" y="239" width="70" height="80"/>
+                            <state key="normal">
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="square32tapped:" destination="-1" eventType="touchUpInside" id="RvF-bf-l6x"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eCC-4O-Zoi" userLabel="Button - 33" customClass="KFSquareButton">
+                            <rect key="frame" x="489" y="316" width="70" height="80"/>
+                            <state key="normal" image="g_fu.png">
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="square33tapped:" destination="-1" eventType="touchUpInside" id="giA-gQ-qGZ"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yhd-hG-Bfx" userLabel="Button - 34" customClass="KFSquareButton">
+                            <rect key="frame" x="489" y="393" width="70" height="80"/>
+                            <state key="normal">
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="square34tapped:" destination="-1" eventType="touchUpInside" id="WZ5-ld-OF5"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WXm-ai-oyW" userLabel="Button - 35" customClass="KFSquareButton">
+                            <rect key="frame" x="489" y="470" width="70" height="80"/>
+                            <state key="normal">
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="square35tapped:" destination="-1" eventType="touchUpInside" id="mnY-xB-qcK"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ozr-Kh-bba" userLabel="Button - 36" customClass="KFSquareButton">
+                            <rect key="frame" x="489" y="546" width="70" height="80"/>
+                            <state key="normal">
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="square36tapped:" destination="-1" eventType="touchUpInside" id="8J1-oh-Dcv"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dcv-HE-fK1" userLabel="Button - 37" customClass="KFSquareButton">
+                            <rect key="frame" x="489" y="624" width="70" height="80"/>
+                            <state key="normal" image="s_fu.png">
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="square37tapped:" destination="-1" eventType="touchUpInside" id="B8c-8z-ISw"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hdk-iV-I6h" userLabel="Button - 38" customClass="KFSquareButton">
+                            <rect key="frame" x="489" y="700" width="70" height="80"/>
+                            <state key="normal">
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="square38tapped:" destination="-1" eventType="touchUpInside" id="oK0-Xu-nbN"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6W2-hY-xa9" userLabel="Button - 39" customClass="KFSquareButton">
+                            <rect key="frame" x="489" y="778" width="70" height="80"/>
+                            <state key="normal" image="s_gin.png">
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="square39tapped:" destination="-1" eventType="touchUpInside" id="rZz-Hy-Ao6"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5bk-1E-enA" userLabel="Button - 41" customClass="KFSquareButton">
+                            <rect key="frame" x="419" y="162" width="70" height="80"/>
+                            <state key="normal" image="g_kin.png">
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="square41tapped:" destination="-1" eventType="touchUpInside" id="vvd-hB-30T"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kSE-JS-yE8" userLabel="Button - 42" customClass="KFSquareButton">
+                            <rect key="frame" x="419" y="239" width="70" height="80"/>
+                            <state key="normal">
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="square42tapped:" destination="-1" eventType="touchUpInside" id="Yac-g7-ioD"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0hs-3V-51k" userLabel="Button - 43" customClass="KFSquareButton">
+                            <rect key="frame" x="419" y="316" width="70" height="80"/>
+                            <state key="normal" image="g_fu.png">
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="square43tapped:" destination="-1" eventType="touchUpInside" id="Jq6-gb-iTp"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PF5-1E-zkl" userLabel="Button - 44" customClass="KFSquareButton">
+                            <rect key="frame" x="419" y="393" width="70" height="80"/>
+                            <state key="normal">
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="square44tapped:" destination="-1" eventType="touchUpInside" id="xIv-Z3-c2g"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4md-U5-uBf" userLabel="Button - 45" customClass="KFSquareButton">
+                            <rect key="frame" x="419" y="470" width="70" height="80"/>
+                            <state key="normal">
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="square45tapped:" destination="-1" eventType="touchUpInside" id="3Jm-IK-KE1"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NVZ-xN-nLD" userLabel="Button - 46" customClass="KFSquareButton">
+                            <rect key="frame" x="419" y="546" width="70" height="80"/>
+                            <state key="normal">
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="square46tapped:" destination="-1" eventType="touchUpInside" id="oXK-hX-2dC"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="A9j-qN-wlF" userLabel="Button - 47" customClass="KFSquareButton">
+                            <rect key="frame" x="419" y="624" width="70" height="80"/>
+                            <state key="normal" image="s_fu.png">
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="square47tapped:" destination="-1" eventType="touchUpInside" id="sDs-xe-xtu"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5VX-hJ-Cds" userLabel="Button - 48" customClass="KFSquareButton">
+                            <rect key="frame" x="419" y="700" width="70" height="80"/>
+                            <state key="normal">
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="square48tapped:" destination="-1" eventType="touchUpInside" id="PeZ-LV-sGS"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AdU-9a-7Hu" userLabel="Button - 49" customClass="KFSquareButton">
+                            <rect key="frame" x="419" y="778" width="70" height="80"/>
+                            <state key="normal" image="s_kin.png">
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="square49tapped:" destination="-1" eventType="touchUpInside" id="kAG-Jy-Zim"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GWh-9p-XQC" userLabel="Button - 51" customClass="KFSquareButton">
+                            <rect key="frame" x="349" y="162" width="70" height="80"/>
+                            <state key="normal" image="g_gyoku.png">
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="square51tapped:" destination="-1" eventType="touchUpInside" id="QEL-qd-ofh"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5C5-b5-CdR" userLabel="Button - 52" customClass="KFSquareButton">
+                            <rect key="frame" x="349" y="239" width="70" height="80"/>
+                            <state key="normal">
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="square52tapped:" destination="-1" eventType="touchUpInside" id="0Ks-BW-Oy3"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vWj-St-X2A" userLabel="Button - 53" customClass="KFSquareButton">
+                            <rect key="frame" x="349" y="316" width="70" height="80"/>
+                            <state key="normal" image="g_fu.png">
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="square53tapped:" destination="-1" eventType="touchUpInside" id="vnx-aL-K8S"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KhN-vt-LHZ" userLabel="Button - 54" customClass="KFSquareButton">
+                            <rect key="frame" x="349" y="393" width="70" height="80"/>
+                            <state key="normal">
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="square54tapped:" destination="-1" eventType="touchUpInside" id="N3u-Up-TRt"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cYk-4Y-Hzf" userLabel="Button - 55" customClass="KFSquareButton">
+                            <rect key="frame" x="349" y="470" width="70" height="80"/>
+                            <state key="normal">
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="square55tapped:" destination="-1" eventType="touchUpInside" id="g9t-jS-IZt"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hQI-Me-NA6" userLabel="Button - 56" customClass="KFSquareButton">
+                            <rect key="frame" x="349" y="546" width="70" height="80"/>
+                            <state key="normal">
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="square56tapped:" destination="-1" eventType="touchUpInside" id="nZb-Or-9qj"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="G9F-hb-2U0" userLabel="Button - 57" customClass="KFSquareButton">
+                            <rect key="frame" x="349" y="624" width="70" height="80"/>
+                            <state key="normal" image="s_fu.png">
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="square57tapped:" destination="-1" eventType="touchUpInside" id="DPn-2w-YsJ"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="caL-Pr-uYo" userLabel="Button - 58" customClass="KFSquareButton">
+                            <rect key="frame" x="349" y="700" width="70" height="80"/>
+                            <state key="normal">
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="square58tapped:" destination="-1" eventType="touchUpInside" id="ZBm-g6-Fsr"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZsQ-ll-KIy" userLabel="Button - 59" customClass="KFSquareButton">
+                            <rect key="frame" x="349" y="778" width="70" height="80"/>
+                            <state key="normal" image="s_gyoku.png">
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="square59tapped:" destination="-1" eventType="touchUpInside" id="bYf-RR-4JY"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2zc-gp-S9T" userLabel="Button - 61" customClass="KFSquareButton">
+                            <rect key="frame" x="278" y="162" width="70" height="80"/>
+                            <state key="normal" image="g_kin.png">
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="square61tapped:" destination="-1" eventType="touchUpInside" id="4Q1-3w-Sdu"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Hyj-qc-yDk" userLabel="Button - 62" customClass="KFSquareButton">
+                            <rect key="frame" x="278" y="239" width="70" height="80"/>
+                            <state key="normal">
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="square62tapped:" destination="-1" eventType="touchUpInside" id="9L5-ou-LYo"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5bg-OS-A9Y" userLabel="Button - 63" customClass="KFSquareButton">
+                            <rect key="frame" x="278" y="316" width="70" height="80"/>
+                            <state key="normal" image="g_fu.png">
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="square63tapped:" destination="-1" eventType="touchUpInside" id="cpC-CB-k9M"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="h2J-NR-tal" userLabel="Button - 64" customClass="KFSquareButton">
+                            <rect key="frame" x="278" y="393" width="70" height="80"/>
+                            <state key="normal">
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="square64tapped:" destination="-1" eventType="touchUpInside" id="kMd-m4-BvK"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cHm-t9-NzJ" userLabel="Button - 65" customClass="KFSquareButton">
+                            <rect key="frame" x="278" y="470" width="70" height="80"/>
+                            <state key="normal">
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="square65tapped:" destination="-1" eventType="touchUpInside" id="bHf-A1-Bkn"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yyx-ji-r6O" userLabel="Button - 66" customClass="KFSquareButton">
+                            <rect key="frame" x="278" y="546" width="70" height="80"/>
+                            <state key="normal">
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="square66tapped:" destination="-1" eventType="touchUpInside" id="mat-16-tht"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WtB-h7-oIj" userLabel="Button - 67" customClass="KFSquareButton">
+                            <rect key="frame" x="278" y="624" width="70" height="80"/>
+                            <state key="normal" image="s_fu.png">
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="square67tapped:" destination="-1" eventType="touchUpInside" id="nFg-pf-h6h"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="G8o-Pw-Q4W" userLabel="Button - 68" customClass="KFSquareButton">
+                            <rect key="frame" x="278" y="700" width="70" height="80"/>
+                            <state key="normal">
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="square68tapped:" destination="-1" eventType="touchUpInside" id="2qQ-zo-vOO"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Clu-20-JJv" userLabel="Button - 69" customClass="KFSquareButton">
+                            <rect key="frame" x="278" y="778" width="70" height="80"/>
+                            <state key="normal" image="s_kin.png">
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="square69tapped:" destination="-1" eventType="touchUpInside" id="Wad-hD-1Pu"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PWp-55-U8a" userLabel="Button - 71" customClass="KFSquareButton">
+                            <rect key="frame" x="208" y="162" width="70" height="80"/>
+                            <state key="normal" image="g_gin.png">
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="square71tapped:" destination="-1" eventType="touchUpInside" id="aa3-ah-j7a"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Rr5-e9-LAr" userLabel="Button - 72" customClass="KFSquareButton">
+                            <rect key="frame" x="208" y="239" width="70" height="80"/>
+                            <state key="normal">
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="square72tapped:" destination="-1" eventType="touchUpInside" id="1Rd-ca-0YB"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PaV-aL-I0b" userLabel="Button - 73" customClass="KFSquareButton">
+                            <rect key="frame" x="208" y="316" width="70" height="80"/>
+                            <state key="normal" image="g_fu.png">
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="square73tapped:" destination="-1" eventType="touchUpInside" id="5mf-Vj-u64"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zk1-lT-a6J" userLabel="Button - 74" customClass="KFSquareButton">
+                            <rect key="frame" x="208" y="393" width="70" height="80"/>
+                            <state key="normal">
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="square74tapped:" destination="-1" eventType="touchUpInside" id="sqZ-2g-ONs"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9X3-Vr-aE2" userLabel="Button - 75" customClass="KFSquareButton">
+                            <rect key="frame" x="208" y="470" width="70" height="80"/>
+                            <state key="normal">
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="square75tapped:" destination="-1" eventType="touchUpInside" id="L9d-Tq-tHe"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="D4h-yn-mzf" userLabel="Button - 76" customClass="KFSquareButton">
+                            <rect key="frame" x="208" y="546" width="70" height="80"/>
+                            <state key="normal">
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="square76tapped:" destination="-1" eventType="touchUpInside" id="D3d-54-JoH"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KOz-z1-okf" userLabel="Button - 77" customClass="KFSquareButton">
+                            <rect key="frame" x="208" y="624" width="70" height="80"/>
+                            <state key="normal" image="s_fu.png">
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="square77tapped:" destination="-1" eventType="touchUpInside" id="70X-RF-DOd"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="12N-sO-tLB" userLabel="Button - 78" customClass="KFSquareButton">
+                            <rect key="frame" x="208" y="700" width="70" height="80"/>
+                            <state key="normal">
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="square78tapped:" destination="-1" eventType="touchUpInside" id="ygQ-k6-lb5"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="p5A-pT-sbo" userLabel="Button - 79" customClass="KFSquareButton">
+                            <rect key="frame" x="208" y="778" width="70" height="80"/>
+                            <state key="normal" image="s_gin.png">
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="square79tapped:" destination="-1" eventType="touchUpInside" id="h50-JX-Hza"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="B2E-VD-m1Q" userLabel="Button - 81" customClass="KFSquareButton">
+                            <rect key="frame" x="138" y="162" width="70" height="80"/>
+                            <state key="normal" image="g_kei.png">
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="square81tapped:" destination="-1" eventType="touchUpInside" id="mVE-mk-nid"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4B3-cf-l50" userLabel="Button - 82" customClass="KFSquareButton">
+                            <rect key="frame" x="138" y="239" width="70" height="80"/>
+                            <state key="normal" image="g_hisha.png">
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="square82tapped:" destination="-1" eventType="touchUpInside" id="ZBy-TB-Zxj"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="H7e-Hh-PuT" userLabel="Button - 83" customClass="KFSquareButton">
+                            <rect key="frame" x="138" y="316" width="70" height="80"/>
+                            <state key="normal" image="g_fu.png">
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="square83tapped:" destination="-1" eventType="touchUpInside" id="4jb-6M-C0o"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ju2-Rz-qgm" userLabel="Button - 84" customClass="KFSquareButton">
+                            <rect key="frame" x="138" y="393" width="70" height="80"/>
+                            <state key="normal">
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="square84tapped:" destination="-1" eventType="touchUpInside" id="QsG-1F-lgi"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zHc-NS-AFh" userLabel="Button - 85" customClass="KFSquareButton">
+                            <rect key="frame" x="138" y="470" width="70" height="80"/>
+                            <state key="normal">
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="square85tapped:" destination="-1" eventType="touchUpInside" id="okc-uc-9M5"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Z68-MN-xag" userLabel="Button - 86" customClass="KFSquareButton">
+                            <rect key="frame" x="138" y="546" width="70" height="80"/>
+                            <state key="normal">
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="square86tapped:" destination="-1" eventType="touchUpInside" id="j6N-hL-AiT"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jTV-bn-6PL" userLabel="Button - 87" customClass="KFSquareButton">
+                            <rect key="frame" x="138" y="624" width="70" height="80"/>
+                            <state key="normal" image="s_fu.png">
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="square87tapped:" destination="-1" eventType="touchUpInside" id="fWL-Fc-2QG"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AJc-R2-tGs" userLabel="Button - 88" customClass="KFSquareButton">
+                            <rect key="frame" x="138" y="700" width="70" height="80"/>
+                            <state key="normal" image="s_kaku.png">
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="square88tapped:" destination="-1" eventType="touchUpInside" id="Bol-el-oLk"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CWM-P0-TsC" userLabel="Button - 89" customClass="KFSquareButton">
+                            <rect key="frame" x="138" y="778" width="70" height="80"/>
+                            <state key="normal" image="s_kei.png">
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="square89tapped:" destination="-1" eventType="touchUpInside" id="CTp-Qv-mQu"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ncL-js-Vwx" userLabel="Button - 91" customClass="KFSquareButton">
+                            <rect key="frame" x="68" y="162" width="70" height="80"/>
+                            <state key="normal" image="g_kyo.png">
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="square91tapped:" destination="-1" eventType="touchUpInside" id="ISB-tv-7Eq"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zrD-4I-Mbc" userLabel="Button - 92" customClass="KFSquareButton">
+                            <rect key="frame" x="68" y="239" width="70" height="80"/>
+                            <state key="normal">
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="square92tapped:" destination="-1" eventType="touchUpInside" id="O0e-YP-OpR"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UEl-IJ-nbE" userLabel="Button - 93" customClass="KFSquareButton">
+                            <rect key="frame" x="68" y="316" width="70" height="80"/>
+                            <state key="normal" image="g_fu.png">
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="square93tapped:" destination="-1" eventType="touchUpInside" id="qyF-b5-aGy"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gzC-8e-Xel" userLabel="Button - 94" customClass="KFSquareButton">
+                            <rect key="frame" x="68" y="393" width="70" height="80"/>
+                            <state key="normal">
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="square94tapped:" destination="-1" eventType="touchUpInside" id="xfQ-6f-ZjA"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iw9-vR-Mez" userLabel="Button - 95" customClass="KFSquareButton">
+                            <rect key="frame" x="68" y="470" width="70" height="80"/>
+                            <state key="normal">
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="square95tapped:" destination="-1" eventType="touchUpInside" id="4KJ-XS-UNT"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="I9v-ra-p5O" userLabel="Button - 96" customClass="KFSquareButton">
+                            <rect key="frame" x="68" y="546" width="70" height="80"/>
+                            <state key="normal">
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="square96tapped:" destination="-1" eventType="touchUpInside" id="RAN-Ye-Fvy"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vFM-pn-BQv" userLabel="Button - 97" customClass="KFSquareButton">
+                            <rect key="frame" x="68" y="624" width="70" height="80"/>
+                            <state key="normal" image="s_fu.png">
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="square97tapped:" destination="-1" eventType="touchUpInside" id="8Jf-HM-9gq"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="18E-6O-PkY" userLabel="Button - 98" customClass="KFSquareButton">
+                            <rect key="frame" x="68" y="700" width="70" height="80"/>
+                            <state key="normal">
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="square98tapped:" destination="-1" eventType="touchUpInside" id="GCF-BX-Tk8"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="abr-Yy-fd8" userLabel="Button - 99" customClass="KFSquareButton">
+                            <rect key="frame" x="68" y="778" width="70" height="80"/>
+                            <state key="normal" image="s_kyo.png">
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="square99tapped:" destination="-1" eventType="touchUpInside" id="bgH-DA-26k"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                </view>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DBA-3y-nak" userLabel="Side Forward button">
+                    <rect key="frame" x="384" y="100" width="384" height="824"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                    <state key="normal">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="forwardButtonTapped:" destination="-1" eventType="touchUpInside" id="XDQ-Ck-q7t"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XL9-fd-WEp" userLabel="Side Rewind button">
+                    <rect key="frame" x="0.0" y="100" width="384" height="824"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                    <state key="normal">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="rewindButtonTapped:" destination="-1" eventType="touchUpInside" id="30S-kN-KZO"/>
+                    </connections>
+                </button>
+                <navigationBar contentMode="scaleToFill" fixedFrame="YES" barStyle="black" translatesAutoresizingMaskIntoConstraints="NO" id="86N-FM-BVe">
+                    <rect key="frame" x="0.0" y="984" width="768" height="44"/>
+                    <color key="barTintColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <items>
+                        <navigationItem title="対局開始" id="82P-jf-yaA">
+                            <barButtonItem key="leftBarButtonItem" title="待った" id="ivI-w7-EqH" userLabel="Wait Button">
+                                <color key="tintColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <connections>
+                                    <action selector="waitButtonTapped:" destination="-1" id="4gs-Ec-AWc"/>
+                                </connections>
+                            </barButtonItem>
+                            <barButtonItem key="rightBarButtonItem" style="plain" systemItem="action" id="Sb0-H7-tYH" userLabel="Menu Button">
+                                <color key="tintColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <connections>
+                                    <action selector="menuButtonTapped:" destination="-1" id="VuS-Tz-ffy"/>
+                                </connections>
+                            </barButtonItem>
+                        </navigationItem>
+                    </items>
+                </navigationBar>
+                <toolbar hidden="YES" opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" fixedFrame="YES" barStyle="black" translatesAutoresizingMaskIntoConstraints="NO" id="K1y-gH-Ug0">
+                    <rect key="frame" x="0.0" y="984" width="768" height="44"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <items>
+                        <barButtonItem systemItem="stop" id="YFn-aJ-CEz">
+                            <connections>
+                                <action selector="closeButtonTapped:" destination="-1" id="eRW-M1-dID"/>
+                            </connections>
+                        </barButtonItem>
+                        <barButtonItem style="plain" systemItem="flexibleSpace" id="xhj-Nz-ih0" userLabel="Flexible Space"/>
+                        <barButtonItem systemItem="rewind" id="b8R-Pg-rsS" userLabel="Rewind">
+                            <connections>
+                                <action selector="rewindButtonTapped:" destination="-1" id="9iQ-8c-YNa"/>
+                            </connections>
+                        </barButtonItem>
+                        <barButtonItem style="plain" systemItem="flexibleSpace" id="8OW-9f-3Eb" userLabel="Flexible Space"/>
+                        <barButtonItem title="初期画面" id="ei4-Sg-EJ3" userLabel="Title item">
+                            <connections>
+                                <action selector="recordTitleButtonTapped:" destination="-1" id="VBv-SP-XGp"/>
+                            </connections>
+                        </barButtonItem>
+                        <barButtonItem style="plain" systemItem="flexibleSpace" id="fbr-z6-tdW" userLabel="Flexible Space"/>
+                        <barButtonItem systemItem="fastForward" id="HQ8-Jk-xRo" userLabel="Fast Forward">
+                            <connections>
+                                <action selector="forwardButtonTapped:" destination="-1" id="448-Vc-aQN"/>
+                            </connections>
+                        </barButtonItem>
+                        <barButtonItem style="plain" systemItem="flexibleSpace" id="Zrt-x0-OIN" userLabel="Flexible Space"/>
+                        <barButtonItem width="50" systemItem="action" id="9lk-4g-Ps4" userLabel="Action">
+                            <inset key="imageInsets" minX="0.0" minY="0.0" maxX="20" maxY="0.0"/>
+                            <connections>
+                                <action selector="recordMenuButtonTapped:" destination="-1" id="Oa7-bc-tsx"/>
+                            </connections>
+                        </barButtonItem>
+                    </items>
+                    <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                </toolbar>
+                <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="LmG-D5-vX3" userLabel="GAD Left Banner View" customClass="GADBannerView">
+                    <rect key="frame" x="64" y="0.0" width="320" height="50"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                </view>
+                <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="vru-gg-PRi" userLabel="GAD Right Banner View" customClass="GADBannerView">
+                    <rect key="frame" x="384" y="0.0" width="320" height="50"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                </view>
+            </subviews>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="g_fu.png" width="120" height="128"/>
+        <image name="g_gin.png" width="120" height="128"/>
+        <image name="g_gyoku.png" width="120" height="128"/>
+        <image name="g_hisha.png" width="120" height="128"/>
+        <image name="g_kaku.png" width="120" height="128"/>
+        <image name="g_kei.png" width="120" height="128"/>
+        <image name="g_kin.png" width="120" height="128"/>
+        <image name="g_kyo.png" width="120" height="128"/>
+        <image name="japanese-chess-b02.jpg" width="600" height="640"/>
+        <image name="mokume3.png" width="200" height="304"/>
+        <image name="s_fu.png" width="120" height="128"/>
+        <image name="s_gin.png" width="120" height="128"/>
+        <image name="s_gyoku.png" width="120" height="128"/>
+        <image name="s_hisha.png" width="120" height="128"/>
+        <image name="s_kaku.png" width="120" height="128"/>
+        <image name="s_kei.png" width="120" height="128"/>
+        <image name="s_kin.png" width="120" height="128"/>
+        <image name="s_kyo.png" width="120" height="128"/>
+    </resources>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
+</document>

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="6254" systemVersion="13F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6247"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="KFMatchConditionViewController">
+            <connections>
+                <outlet property="adMobBannerView" destination="KuB-4v-Wdb" id="ujb-8M-py6"/>
+                <outlet property="admobTopBannerView" destination="8y4-Yh-8fm" id="xbZ-qR-Tay"/>
+                <outlet property="tableView" destination="oZl-9g-nYh" id="Rs2-CO-Qhx"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Uvf-RS-VJs">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="44" id="tAu-9Q-fXP"/>
+                    </constraints>
+                    <items>
+                        <navigationItem title="棋戦を選択" id="dOd-H2-YGJ">
+                            <barButtonItem key="leftBarButtonItem" title="戻る" id="JoV-TS-Kur" userLabel="Back button">
+                                <connections>
+                                    <action selector="backButtonTapped:" destination="-1" id="WRl-dq-jQT"/>
+                                </connections>
+                            </barButtonItem>
+                        </navigationItem>
+                    </items>
+                </navigationBar>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8y4-Yh-8fm" userLabel="AdMob Top Banner View" customClass="GADBannerView">
+                    <rect key="frame" x="0.0" y="44" width="320" height="50"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="50" id="Bqd-lh-s0D"/>
+                    </constraints>
+                </view>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="oZl-9g-nYh">
+                    <rect key="frame" x="0.0" y="94" width="320" height="424"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <connections>
+                        <outlet property="dataSource" destination="-1" id="8vc-cb-4YF"/>
+                        <outlet property="delegate" destination="-1" id="hkl-hc-gww"/>
+                    </connections>
+                </tableView>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="KuB-4v-Wdb" userLabel="AdMob Bottom Banner View" customClass="GADBannerView">
+                    <rect key="frame" x="0.0" y="518" width="320" height="50"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="50" id="Wa4-uw-INT"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="oZl-9g-nYh" secondAttribute="trailing" id="6PZ-Sk-BXo"/>
+                <constraint firstItem="8y4-Yh-8fm" firstAttribute="top" secondItem="Uvf-RS-VJs" secondAttribute="bottom" id="7qf-H1-jfb"/>
+                <constraint firstItem="oZl-9g-nYh" firstAttribute="top" secondItem="8y4-Yh-8fm" secondAttribute="bottom" id="A6f-tu-kPi"/>
+                <constraint firstItem="KuB-4v-Wdb" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="G3q-lD-mCb"/>
+                <constraint firstItem="oZl-9g-nYh" firstAttribute="top" secondItem="8y4-Yh-8fm" secondAttribute="bottom" id="IkZ-TX-9GB"/>
+                <constraint firstAttribute="trailing" secondItem="Uvf-RS-VJs" secondAttribute="trailing" id="K5C-pb-A6d"/>
+                <constraint firstItem="Uvf-RS-VJs" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="Rzd-Xw-qRZ"/>
+                <constraint firstAttribute="trailing" secondItem="KuB-4v-Wdb" secondAttribute="trailing" id="Z6h-Yh-kDH"/>
+                <constraint firstAttribute="trailing" secondItem="8y4-Yh-8fm" secondAttribute="trailing" id="a03-Wx-Gfi"/>
+                <constraint firstItem="oZl-9g-nYh" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="bmn-VB-x2S"/>
+                <constraint firstAttribute="bottom" secondItem="KuB-4v-Wdb" secondAttribute="bottom" id="dNl-Af-OGT"/>
+                <constraint firstItem="KuB-4v-Wdb" firstAttribute="top" secondItem="oZl-9g-nYh" secondAttribute="bottom" id="eI2-pJ-QSf"/>
+                <constraint firstItem="8y4-Yh-8fm" firstAttribute="top" secondItem="Uvf-RS-VJs" secondAttribute="bottom" id="qGU-VR-wLz"/>
+                <constraint firstItem="8y4-Yh-8fm" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="rkx-p2-5Wt"/>
+                <constraint firstItem="Uvf-RS-VJs" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="u8X-TW-Y3F"/>
+                <constraint firstItem="KuB-4v-Wdb" firstAttribute="top" secondItem="oZl-9g-nYh" secondAttribute="bottom" id="ugl-1w-K7b"/>
+            </constraints>
+            <point key="canvasLocation" x="631" y="428"/>
+        </view>
+    </objects>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
+</document>

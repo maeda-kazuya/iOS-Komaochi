@@ -1,0 +1,275 @@
+//
+//  Prefix header
+//
+//  The contents of this file are implicitly included at the beginning of every source file.
+//
+
+#import <Availability.h>
+
+#ifndef __IPHONE_5_0
+#warning "This project uses features only available in iOS SDK 5.0 and later."
+#endif
+
+#ifdef __OBJC__
+    #import <UIKit/UIKit.h>
+    #import <Foundation/Foundation.h>
+#endif
+
+// Moving order
+#define FIRST_MOVE   0    //先手
+#define SECOND_MOVE  1    //後手
+
+// Side
+///*
+#define THIS_SIDE    0    //手前側
+#define COUNTER_SIDE 1    //奥側
+// */
+//駒落ち用に逆にする
+/*
+#define THIS_SIDE    1    //手前側
+#define COUNTER_SIDE 0    //奥側
+ */
+
+
+// Mode
+#define PLAY_MODE    0    // Default
+#define READ_MODE    1    // Reading local saved records
+//#define LOAD_MODE    2    // Load records from web
+
+// Match ID
+//TODO:Match -> Titleに変更?
+#define MATCH_ID_GENERAL    0
+/*
+#define MATCH_ID_RYUOU      1
+#define MATCH_ID_KISEI      2
+#define MATCH_ID_KIOU       3
+#define MATCH_ID_OUI        4
+#define MATCH_ID_OUZA       5
+ */
+#define MATCH_ID_Search     6
+#define MATCH_ID_POSITION   7
+#define MATCH_ID_PREVIOUS   8
+
+#define MATCH_ID_RYUOU          101
+#define MATCH_ID_KISEI          102
+#define MATCH_ID_KIOU           103
+#define MATCH_ID_OUI            104
+#define MATCH_ID_OUZA           105
+#define MATCH_ID_SHINJIN        106
+#define MATCH_ID_TATSUJIN       107
+#define MATCH_ID_KAKOGAWA       108
+#define MATCH_ID_JORYU_MEIJIN   109
+#define MATCH_ID_JORYU_OUI      110
+//#define MATCH_ID_RICOH          111
+#define MATCH_ID_JORYU_OUZA     111
+#define MATCH_ID_ASAHI          112
+#define MATCH_ID_DAIWA          113
+
+// Match Detail ID (not used in scanHTML method in KFRecordLoader)
+//GENERAL
+#define MATCH_DETAIL_ID_GENERAL         0
+#define MATCH_DETAIL_ID_POSITION        7
+//#define MATCH_DETAIL_ID_PREVIOUS        8
+
+//RYUOU
+#define MATCH_DETAIL_ID_RYUOU_TOP       0
+#define MATCH_DETAIL_ID_RYUOU_TERM26    1
+#define MATCH_DETAIL_ID_RYUOU_TERM25    2
+//#define MATCH_DETAIL_ID_RYUOU_TERM24    3
+//#define MATCH_DETAIL_ID_RYUOU_TERM23    4
+//#define MATCH_DETAIL_ID_RYUOU_TERM22    5
+//#define MATCH_DETAIL_ID_RYUOU_TERM21    6
+//#define MATCH_DETAIL_ID_RYUOU_TERM20    7
+//#define MATCH_DETAIL_ID_RYUOU_TERM19    8
+
+// KISEI
+#define MATCH_DETAIL_ID_KISEI_TOP       0
+#define MATCH_DETAIL_ID_KISEI_OTHER     1
+
+// KIOU
+#define MATCH_DETAIL_ID_KIOU_TOP        0
+#define MATCH_DETAIL_ID_KIOU_TERM38     1
+#define MATCH_DETAIL_ID_KIOU_TERM37     2
+#define MATCH_DETAIL_ID_KIOU_TERM36     3
+#define MATCH_DETAIL_ID_KIOU_TERM35     4
+#define MATCH_DETAIL_ID_KIOU_TERM34     5
+#define MATCH_DETAIL_ID_KIOU_TERM33     6
+
+// OUI
+#define MATCH_DETAIL_ID_OUI_TOP         0
+#define MATCH_DETAIL_ID_OUI_OTHER       1
+
+// OUZA
+#define MATCH_DETAIL_ID_OUZA_TOP         0
+#define MATCH_DETAIL_ID_OUZA_OTHER       1
+
+// Piece ID
+#define PIECE_ID_GYOKU      @"0"
+#define PIECE_ID_KIN        @"1"
+#define PIECE_ID_GIN        @"2"
+#define PIECE_ID_KEI        @"3"
+#define PIECE_ID_KYO        @"4"
+#define PIECE_ID_KAKU       @"5"
+#define PIECE_ID_HISHA      @"6"
+#define PIECE_ID_FU         @"7"
+#define PIECE_ID_NARIGIN    @"8"
+#define PIECE_ID_NARIKEI    @"9"
+#define PIECE_ID_NARIKYO    @"10"
+#define PIECE_ID_UMA        @"11"
+#define PIECE_ID_RYU        @"12"
+#define PIECE_ID_TO         @"13"
+
+#define TEST_DEVICE_ID_1           @"c07309ca4a7b7af5e35c6ba6aadae7ae29ed8a6b"
+
+/*
+#define ADMOB_TOP_UNIT_ID          @""
+#define ADMOB_BOTTOM_UNIT_ID       @""
+
+#define NEND_AD_ID          @""
+#define NEND_SPOT_ID        @""
+*/
+
+#define ADMOB_TOP_UNIT_ID          @"ca-app-pub-4178521208647770/2385302115"
+#define ADMOB_BOTTOM_UNIT_ID       @"ca-app-pub-4178521208647770/2385302115"
+
+#define NEND_AD_ID          @"b110b8c82a45dc948ba145b9402a19c04c55f382"
+#define NEND_SPOT_ID        @"398277"
+
+#define NEND_SECOND_AD_ID          @"dc74e1821fe6cfc4ca7e55ab1217c5732858b3c8" // TEST
+#define NEND_SECOND_SPOT_ID        @"144741" // TEST
+
+#define NEND_ICON_AD_ID     @"903daa4d9a28af7988609aa7a20f49bff4a6b353"
+#define NEND_ICON_SPOT_ID   @"248387"
+
+#define APPBANK_AD_ID       @"aef3f367c988e659eb70a960ae19b06ad8a4a1de"
+#define APPBANK_SPOT_ID     @"248384"
+
+// Shogi DB
+#define SHOGI_DB_URL            @"http://wiki.optus.nu/shogi/index.php?lan=jp&page=registerdfile"
+
+// Ryuou
+#define RYUOU_SITE_URL          @"http://live.shogi.or.jp/ryuou/"
+#define RYUOU_KIFU_URL          @"http://live.shogi.or.jp/ryuou/"
+#define RYUOU_TERM26_KIFU_URL   @"http://live.shogi.or.jp/ryuou/26/7game.html"
+#define RYUOU_TERM25_KIFU_URL   @"http://live.shogi.or.jp/ryuou/25/7game.html"
+#define RYUOU_TERM24_KIFU_URL   @"http://live.shogi.or.jp/ryuou/24/7game.html"
+#define RYUOU_TERM23_KIFU_URL   @"http://live.shogi.or.jp/ryuou/23/7game.html"
+#define RYUOU_TERM22_KIFU_URL   @"http://live.shogi.or.jp/ryuou/22/index.html#game7"
+#define RYUOU_TERM21_KIFU_URL   @"http://live.shogi.or.jp/ryuou/21/index.html#game7"
+#define RYUOU_TERM20_KIFU_URL   @"http://live.shogi.or.jp/ryuou/20/index.html#game7"
+#define RYUOU_TERM19_KIFU_URL   @"http://live.shogi.or.jp/ryuou/19/index.html#game7"
+
+// Kisei
+#define KISEI_SITE_URL  @"http://live.shogi.or.jp/kisei/"
+#define KISEI_KIFU_URL  @"http://live.shogi.or.jp/kisei/archive/index.html"
+
+// Kiou
+#define KIOU_SITE_URL           @"http://live.shogi.or.jp/kiou/"
+#define KIOU_KIFU_URL           @"http://live.shogi.or.jp/kiou/"
+#define KIOU_TERM38_KIFU_URL    @"http://live.shogi.or.jp/kiou/archive/38.html"
+#define KIOU_TERM37_KIFU_URL    @"http://live.shogi.or.jp/kiou/archive/37.html"
+#define KIOU_TERM36_KIFU_URL    @"http://live.shogi.or.jp/kiou/archive/36.html"
+#define KIOU_TERM35_KIFU_URL    @"http://live.shogi.or.jp/kiou/archive/35.html"
+#define KIOU_TERM34_KIFU_URL    @"http://live.shogi.or.jp/kiou/archive/34.html"
+#define KIOU_TERM33_KIFU_URL    @"http://live.shogi.or.jp/kiou/archive/33.html"
+
+// Oui
+#define OUI_SITE_URL        @"http://live.shogi.or.jp/oui/"
+#define OUI_KIFU_URL        @"http://live.shogi.or.jp/oui/"
+#define OUI_ARCHIVE_URL     @"http://live.shogi.or.jp/oui/archives.html"
+
+// Ouza
+#define OUZA_SITE_URL       @"http://live.shogi.or.jp/ouza/"
+#define OUZA_KIFU_URL       @"http://live.shogi.or.jp/ouza/"
+#define OUZA_ARCHIVE_URL    @"http://live.shogi.or.jp/ouza/archive.html"
+
+// 新人王戦
+#define SHINJIN_SITE_URL            @"http://live.shogi.or.jp/shinjin/"
+#define SHINJIN_KIFU_URL            @"http://live.shogi.or.jp/shinjin/"
+#define SHINJIN_TERM44_KIFU_URL     @"http://live.shogi.or.jp/shinjin/archives/44.html"
+#define SHINJIN_TERM43_KIFU_URL     @"http://live.shogi.or.jp/shinjin/archives/43.html"
+#define SHINJIN_TERM42_KIFU_URL     @"http://live.shogi.or.jp/shinjin/archives/42.html"
+#define SHINJIN_TERM41_KIFU_URL     @"http://live.shogi.or.jp/shinjin/archives/41.html"
+#define SHINJIN_TERM40_KIFU_URL     @"http://live.shogi.or.jp/shinjin/archives/40.html"
+#define MATCH_DETAIL_ID_SHINJIN_TOP         0
+#define MATCH_DETAIL_ID_SHINJIN_TERM44      1
+#define MATCH_DETAIL_ID_SHINJIN_TERM43      2
+#define MATCH_DETAIL_ID_SHINJIN_TERM42      3
+#define MATCH_DETAIL_ID_SHINJIN_TERM41      4
+#define MATCH_DETAIL_ID_SHINJIN_TERM40      5
+
+// 達人戦
+#define TATSUJIN_SITE_URL        @"http://live.shogi.or.jp/tatsujin/"
+#define TATSUJIN_KIFU_URL        @"http://live.shogi.or.jp/tatsujin/"
+#define TATSUJIN_ARCHIVE_URL     @"http://live.shogi.or.jp/tatsujin/archive/index.html"
+#define MATCH_DETAIL_ID_TATSUJIN_TOP         0
+#define MATCH_DETAIL_ID_TATSUJIN_OTHER       1
+
+// 加古川清流戦
+#define KAKOGAWA_SITE_URL       @"http://live.shogi.or.jp/seiryu/"
+#define KAKOGAWA_KIFU_URL       @"http://live.shogi.or.jp/seiryu/"
+#define MATCH_DETAIL_ID_KAKOGAWA_TOP         0
+
+// 女流名人戦
+#define JORYU_MEIJIN_SITE_URL               @"http://live.shogi.or.jp/joryumeijin/"
+#define JORYU_MEIJIN_KIFU_URL               @"http://live.shogi.or.jp/joryumeijin/"
+#define JORYU_MEIJIN_ARCHIVE_URL            @"http://live.shogi.or.jp/joryumeijin/kifu/archive.html"
+#define MATCH_DETAIL_ID_JORYU_MEIJIN_TOP        0
+#define MATCH_DETAIL_ID_JORYU_MEIJIN_OTHER      1
+
+// 女流王位戦
+#define JORYU_OUI_SITE_URL               @"http://live.shogi.or.jp/joryu-oui/"
+//#define JORYU_OUI_KIFU_URL
+#define JORYU_OUI_ARCHIVE_URL            @"http://live.shogi.or.jp/joryu-oui/archives.html"
+#define MATCH_DETAIL_ID_JORYU_OUI_TOP        0
+#define MATCH_DETAIL_ID_JORYU_OUI_OTHER      1
+
+// 女流王座戦（リコー杯）
+#define JORYU_OUZA_SITE_URL               @"http://live.shogi.or.jp/joryu_ouza/"
+//#define JORYU_OUZA_KIFU_URL               @"http://live.shogi.or.jp/joryumeijin/"
+#define JORYU_OUZA_ARCHIVE_URL            @"http://live.shogi.or.jp/joryu_ouza/archives.html"
+#define MATCH_DETAIL_ID_JORYU_OUZA_TOP        0
+#define MATCH_DETAIL_ID_JORYU_OUZA_OTHER      1
+
+// 朝日杯
+#define ASAHI_SITE_URL               @"http://live.shogi.or.jp/asahi/"
+//#define ASAHI_KIFU_URL               @"http://live.shogi.or.jp/joryumeijin/"
+#define ASAHI_ARCHIVE_URL            @"http://live.shogi.or.jp/asahi/archives/index.html"
+#define MATCH_DETAIL_ID_ASAHI_TOP        0
+#define MATCH_DETAIL_ID_ASAHI_OTHER      1
+
+// 大和証券杯
+#define DAIWA_SITE_URL               @"http://www.daiwashogi.net/"
+#define DAIWA_KIFU_URL               @"http://live.shogi.or.jp/daiwa_joryu/"
+#define DAIWA_ARCHIVE_URL            @"http://www.daiwashogi.net/archives.html"
+#define MATCH_DETAIL_ID_DAIWA_TOP        0
+#define MATCH_DETAIL_ID_DAIWA_OTHER      1
+
+//#define NEND_AD_ID          @"a6eca9dd074372c898dd1df549301f277c53f2b9" // For TEST
+//#define NEND_SPOT_ID        @"3172" // For TEST
+
+#define RYUOU_TITLE_NAME @"竜王戦"
+#define KISEI_TITLE_NAME @"棋聖戦"
+#define KIOU_TITLE_NAME @"棋王戦"
+#define OUI_TITLE_NAME @"王位戦"
+#define OUZA_TITLE_NAME @"王座戦"
+#define SHINJIN_TITLE_NAME @"新人王戦"
+#define TATSUJIN_TITLE_NAME @"達人戦（富士通杯）"
+#define KAKOGAWA_TITLE_NAME @"加古川清流戦"
+#define JORYU_MEIJIN_TITLE_NAME @"女流名人戦"
+#define JORYU_OUI_TITLE_NAME @"女流王位戦"
+#define ASAHI_TITLE_NAME @"朝日杯"
+#define RICOH_TITLE_NAME @"女流王座戦（リコー杯）"
+#define DAIWA_TITLE_NAME @"大和証券杯"
+
+//TODO:これいらない？
+#define TATSUJIN_KIFU_URL @"http://live.shogi.or.jp/tatsujin/"
+#define KAKOGAWA_KIFU_URL @"http://live.shogi.or.jp/seiryu/"
+#define JORYU_MEIJIN_KIFU_URL @"http://live.shogi.or.jp/joryumeijin/"
+#define JORYU_OUI_KIFU_URL @"http://live.shogi.or.jp/joryu-oui/"
+#define RICOH_KIFU_URL @"http://live.shogi.or.jp/joryu_ouza/"
+#define ASAHI_KIFU_URL @"http://live.shogi.or.jp/asahi/"
+//#define DAIWA_KIFU_URL @"http://www.daiwashogi.net/archives.html"
+
+
+

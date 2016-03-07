@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="6254" systemVersion="13F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6247"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="KFLoadRecordViewController">
+            <connections>
+                <outlet property="admobBannerView" destination="yIO-aO-ypZ" id="eFf-49-FOl"/>
+                <outlet property="admobBottomBannerView" destination="qhy-D8-Rg8" id="FzM-Aw-His"/>
+                <outlet property="cancelButton" destination="xJT-2N-aB9" id="4xY-2v-dt6"/>
+                <outlet property="nendAdView" destination="Bvb-Qi-oA7" id="8e3-w4-6RN"/>
+                <outlet property="titleTextField" destination="Q3G-Vm-4mS" id="jAC-uu-L0Y"/>
+                <outlet property="view" destination="EKn-Uh-eXZ" id="obj-ml-IgS"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="EKn-Uh-eXZ">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="BY4-6J-mPm">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                    <items>
+                        <navigationItem id="v2H-xy-COq">
+                            <barButtonItem key="leftBarButtonItem" title="キャンセル" id="xJT-2N-aB9" userLabel="Cancel button">
+                                <connections>
+                                    <action selector="cancelButtonTapped:" destination="-1" id="6Xg-VY-42L"/>
+                                </connections>
+                            </barButtonItem>
+                            <barButtonItem key="rightBarButtonItem" title="読込" id="Oo2-4T-PuM" userLabel="Load button">
+                                <connections>
+                                    <action selector="loadButtonTapped:" destination="-1" id="vWS-9x-ZxZ"/>
+                                </connections>
+                            </barButtonItem>
+                        </navigationItem>
+                    </items>
+                </navigationBar>
+                <view hidden="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Bvb-Qi-oA7" userLabel="Nend Banner View" customClass="NADView">
+                    <rect key="frame" x="0.0" y="44" width="320" height="50"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                </view>
+                <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="yIO-aO-ypZ" userLabel="Admob Banner View (Top)" customClass="GADBannerView">
+                    <rect key="frame" x="0.0" y="44" width="320" height="100"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                </view>
+                <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="qhy-D8-Rg8" userLabel="Admob Banner View (Bottom)" customClass="GADBannerView">
+                    <rect key="frame" x="0.0" y="259" width="320" height="100"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                </view>
+                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Q3G-Vm-4mS">
+                    <rect key="frame" x="20" y="195" width="280" height="30"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits"/>
+                </textField>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="棋譜のURLを入力してください" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="f5X-oX-v1f">
+                    <rect key="frame" x="20" y="166" width="280" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+            <nil key="simulatedStatusBarMetrics"/>
+            <point key="canvasLocation" x="-85" y="76"/>
+        </view>
+    </objects>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
+</document>

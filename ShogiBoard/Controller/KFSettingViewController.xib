@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7706" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="KFSettingViewController">
+            <connections>
+                <outlet property="admobTopBannerView" destination="rgD-Dh-L6G" id="fCi-XV-I4h"/>
+                <outlet property="komaochiPickerView" destination="sOo-ad-OlE" id="X0m-sW-Qib"/>
+                <outlet property="largeAdmobBannerView" destination="efz-0A-1tw" id="eyA-Yd-lQD"/>
+                <outlet property="motionSegmentedControl" destination="Hwi-Op-yFL" id="BC8-m7-zdr"/>
+                <outlet property="nendAdView" destination="ZEL-3K-HPc" id="rkc-eR-RP9"/>
+                <outlet property="soundSwitch" destination="bb5-4v-BCH" id="4E1-Gw-2my"/>
+                <outlet property="turnSwitch" destination="plM-to-Weg" id="j61-ZP-7oG"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="tsB-IN-IvZ">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                    <items>
+                        <navigationItem title="設定" id="eVd-Iy-PFI">
+                            <barButtonItem key="rightBarButtonItem" title="完了" id="5IK-1E-lev">
+                                <connections>
+                                    <action selector="closeButtonTapped:" destination="-1" id="Bxh-sx-LdN"/>
+                                </connections>
+                            </barButtonItem>
+                        </navigationItem>
+                    </items>
+                </navigationBar>
+                <view hidden="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ZEL-3K-HPc" userLabel="NADView" customClass="NADView">
+                    <rect key="frame" x="0.0" y="44" width="320" height="50"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                </view>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="駒の動き" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DXH-DX-IBC">
+                    <rect key="frame" x="38" y="130" width="68" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <segmentedControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="Hwi-Op-yFL">
+                    <rect key="frame" x="145" y="127" width="154" height="29"/>
+                    <segments>
+                        <segment title="自由"/>
+                        <segment title="ルール通り"/>
+                    </segments>
+                    <connections>
+                        <action selector="motionControlChanged:" destination="-1" eventType="valueChanged" id="AEB-rt-tmb"/>
+                    </connections>
+                </segmentedControl>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="駒音" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jHp-A9-wpU">
+                    <rect key="frame" x="51" y="198" width="34" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="bb5-4v-BCH">
+                    <rect key="frame" x="198" y="193" width="51" height="31"/>
+                    <connections>
+                        <action selector="soundSwitchChanged:" destination="-1" eventType="valueChanged" id="KrH-5t-6fD"/>
+                    </connections>
+                </switch>
+                <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="plM-to-Weg">
+                    <rect key="frame" x="198" y="258" width="51" height="31"/>
+                    <connections>
+                        <action selector="turnSwitchChanged:" destination="-1" eventType="valueChanged" id="yOU-Jl-Ydb"/>
+                    </connections>
+                </switch>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="盤を反転" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nH7-tc-eke">
+                    <rect key="frame" x="38" y="263" width="85" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="rgD-Dh-L6G" userLabel="AdMob Top Banner View" customClass="GADBannerView">
+                    <rect key="frame" x="0.0" y="44" width="320" height="50"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                </view>
+                <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="efz-0A-1tw" userLabel="AdMob Rectangle View" customClass="GADBannerView">
+                    <rect key="frame" x="0.0" y="518" width="320" height="50"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                </view>
+                <pickerView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="sOo-ad-OlE">
+                    <rect key="frame" x="0.0" y="318" width="320" height="162"/>
+                    <connections>
+                        <outlet property="dataSource" destination="-1" id="Spw-PF-kcs"/>
+                        <outlet property="delegate" destination="-1" id="txz-Z1-Siu"/>
+                    </connections>
+                </pickerView>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <nil key="simulatedStatusBarMetrics"/>
+        </view>
+    </objects>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
+</document>

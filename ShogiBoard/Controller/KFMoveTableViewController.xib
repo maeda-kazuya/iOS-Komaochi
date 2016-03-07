@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="6254" systemVersion="13F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6247"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="KFMoveTableViewController">
+            <connections>
+                <outlet property="admobBottomBannerView" destination="ddi-Qi-kdW" id="iGO-rc-8t6"/>
+                <outlet property="admobTopBannerView" destination="HoS-EA-AG8" id="9fx-fX-vJd"/>
+                <outlet property="tableView" destination="bOq-gD-CKp" id="HeP-mK-g3U"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="wRG-Ji-HGE">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="44" id="q2X-WE-8qW"/>
+                    </constraints>
+                    <items>
+                        <navigationItem title="選択した手へ移動" id="jIr-K9-q09">
+                            <barButtonItem key="leftBarButtonItem" title="戻る" id="l3e-NW-rca" userLabel="Back button">
+                                <connections>
+                                    <action selector="backButtonTapped:" destination="-1" id="G6j-l3-3h4"/>
+                                </connections>
+                            </barButtonItem>
+                        </navigationItem>
+                    </items>
+                </navigationBar>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="HoS-EA-AG8" userLabel="AdMob Top View" customClass="GADBannerView">
+                    <rect key="frame" x="0.0" y="44" width="320" height="50"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="50" id="6C0-El-XuL"/>
+                    </constraints>
+                </view>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="bOq-gD-CKp">
+                    <rect key="frame" x="0.0" y="94" width="320" height="428"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <connections>
+                        <outlet property="dataSource" destination="-1" id="bEN-Hj-1ve"/>
+                        <outlet property="delegate" destination="-1" id="qMW-cn-oWJ"/>
+                    </connections>
+                </tableView>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ddi-Qi-kdW" userLabel="AdMob Bottom View" customClass="GADBannerView">
+                    <rect key="frame" x="0.0" y="518" width="320" height="50"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="320" id="UYv-zE-LUd"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="HoS-EA-AG8" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="1sr-zV-8v1"/>
+                <constraint firstItem="bOq-gD-CKp" firstAttribute="leading" secondItem="ddi-Qi-kdW" secondAttribute="leading" id="6fc-Zv-jdB"/>
+                <constraint firstAttribute="bottom" secondItem="ddi-Qi-kdW" secondAttribute="bottom" id="7jd-Pp-zHq"/>
+                <constraint firstItem="bOq-gD-CKp" firstAttribute="top" secondItem="HoS-EA-AG8" secondAttribute="bottom" id="Olx-6z-8jd"/>
+                <constraint firstItem="bOq-gD-CKp" firstAttribute="top" secondItem="HoS-EA-AG8" secondAttribute="bottom" id="QKR-2t-JUj"/>
+                <constraint firstItem="HoS-EA-AG8" firstAttribute="top" secondItem="wRG-Ji-HGE" secondAttribute="bottom" id="QLZ-tf-L22"/>
+                <constraint firstItem="ddi-Qi-kdW" firstAttribute="top" secondItem="bOq-gD-CKp" secondAttribute="bottom" constant="-4" id="Qxo-aw-7vB"/>
+                <constraint firstAttribute="trailing" secondItem="wRG-Ji-HGE" secondAttribute="trailing" id="WiW-om-rJH"/>
+                <constraint firstAttribute="trailing" secondItem="HoS-EA-AG8" secondAttribute="trailing" id="cK4-qI-Jlf"/>
+                <constraint firstItem="HoS-EA-AG8" firstAttribute="top" secondItem="wRG-Ji-HGE" secondAttribute="bottom" id="gEL-al-jfr"/>
+                <constraint firstItem="bOq-gD-CKp" firstAttribute="trailing" secondItem="ddi-Qi-kdW" secondAttribute="trailing" id="haw-BH-b28"/>
+                <constraint firstItem="wRG-Ji-HGE" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="nn6-uN-2Ef"/>
+                <constraint firstItem="ddi-Qi-kdW" firstAttribute="top" secondItem="HoS-EA-AG8" secondAttribute="bottom" constant="424" id="npp-Ux-IK0"/>
+                <constraint firstItem="wRG-Ji-HGE" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="scG-aR-NQ3"/>
+                <constraint firstItem="bOq-gD-CKp" firstAttribute="leading" secondItem="wRG-Ji-HGE" secondAttribute="leading" id="tii-3V-8lt"/>
+                <constraint firstItem="bOq-gD-CKp" firstAttribute="leading" secondItem="HoS-EA-AG8" secondAttribute="leading" id="uaZ-EJ-m1x"/>
+                <constraint firstItem="bOq-gD-CKp" firstAttribute="trailing" secondItem="wRG-Ji-HGE" secondAttribute="trailing" id="xZC-fS-guo"/>
+            </constraints>
+            <point key="canvasLocation" x="549" y="428"/>
+        </view>
+    </objects>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
+</document>
