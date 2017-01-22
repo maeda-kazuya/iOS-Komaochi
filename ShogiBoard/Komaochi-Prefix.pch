@@ -129,8 +129,14 @@
 #define NEND_SPOT_ID        @""
 */
 
-#define ADMOB_TOP_UNIT_ID          @"ca-app-pub-4178521208647770/2385302115"
-#define ADMOB_BOTTOM_UNIT_ID       @"ca-app-pub-4178521208647770/2385302115"
+// AdMob account for Japan
+//#define ADMOB_TOP_UNIT_ID          @"ca-app-pub-4178521208647770/2385302115"
+//#define ADMOB_BOTTOM_UNIT_ID       @"ca-app-pub-4178521208647770/2385302115"
+
+// AdMob account for Singapore
+#define ADMOB_TOP_UNIT_ID          @"ca-app-pub-5529832718864267/9582321031"
+#define ADMOB_BOTTOM_UNIT_ID       @"ca-app-pub-5529832718864267/9582321031"
+
 
 #define NEND_AD_ID          @"b110b8c82a45dc948ba145b9402a19c04c55f382"
 #define NEND_SPOT_ID        @"398277"
