@@ -105,6 +105,7 @@
 		159F7EFC1AA5DEFE009BEC72 /* KFTermConditionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 159F7EFA1AA5DEFE009BEC72 /* KFTermConditionViewController.m */; };
 		159F7EFD1AA5DEFE009BEC72 /* KFTermConditionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 159F7EFB1AA5DEFE009BEC72 /* KFTermConditionViewController.xib */; };
 		15B46B5C1872584200FDDD0F /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 15B46B5B1872584200FDDD0F /* Default-568h@2x.png */; };
+		15B76515208B3988002D0847 /* Asset.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 15B76514208B3988002D0847 /* Asset.xcassets */; };
 		15D01B8119728C7400D41888 /* libGoogleAnalyticsServices.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 15D01B8019728C7400D41888 /* libGoogleAnalyticsServices.a */; };
 		15D01B8319728CB200D41888 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15D01B8219728CB200D41888 /* CoreData.framework */; };
 		15D01B8519728CE800D41888 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 15D01B8419728CE800D41888 /* libz.dylib */; };
@@ -287,6 +288,7 @@
 		159F7EFA1AA5DEFE009BEC72 /* KFTermConditionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KFTermConditionViewController.m; path = Controller/KFTermConditionViewController.m; sourceTree = "<group>"; };
 		159F7EFB1AA5DEFE009BEC72 /* KFTermConditionViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = KFTermConditionViewController.xib; path = Controller/KFTermConditionViewController.xib; sourceTree = "<group>"; };
 		15B46B5B1872584200FDDD0F /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "Resources/Image/Default-568h@2x.png"; sourceTree = "<group>"; };
+		15B76514208B3988002D0847 /* Asset.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Asset.xcassets; path = SupportingFiles/Asset.xcassets; sourceTree = "<group>"; };
 		15D01B7619728C2200D41888 /* GAI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAI.h; sourceTree = "<group>"; };
 		15D01B7719728C2200D41888 /* GAIDictionaryBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAIDictionaryBuilder.h; sourceTree = "<group>"; };
 		15D01B7819728C2200D41888 /* GAIEcommerceFields.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAIEcommerceFields.h; sourceTree = "<group>"; };
@@ -839,6 +841,7 @@
 				15FE2ECF184AFBAC00D00F92 /* InfoPlist.strings */,
 				15FE2ED2184AFBAC00D00F92 /* main.m */,
 				15FE2ED4184AFBAC00D00F92 /* Komaochi-Prefix.pch */,
+				15B76514208B3988002D0847 /* Asset.xcassets */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -1004,6 +1007,7 @@
 				1561406618C1DFE7008E577B /* KFSaveCommentViewController.xib in Resources */,
 				153ACA351A0F5548004B6BDD /* s_uma.png in Resources */,
 				153ACA1F1A0F5548004B6BDD /* g_kyo.png in Resources */,
+				15B76515208B3988002D0847 /* Asset.xcassets in Resources */,
 				1576F1B71AECBEB000A24B81 /* fork_button.png in Resources */,
 				153ACA1D1A0F5548004B6BDD /* g_kei.png in Resources */,
 				153ACA1E1A0F5548004B6BDD /* g_kin.png in Resources */,
@@ -1218,7 +1222,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -1247,7 +1250,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
