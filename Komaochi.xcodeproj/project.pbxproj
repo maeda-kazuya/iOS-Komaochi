@@ -138,27 +138,12 @@
 		15FE2ED7184AFBAC00D00F92 /* KFAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 15FE2ED6184AFBAC00D00F92 /* KFAppDelegate.m */; };
 		15FE2EDD184AFBAC00D00F92 /* KFViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 15FE2EDC184AFBAC00D00F92 /* KFViewController.m */; };
 		15FE2EDF184AFBAC00D00F92 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 15FE2EDE184AFBAC00D00F92 /* Images.xcassets */; };
-		15FE2EE6184AFBAC00D00F92 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15FE2EE5184AFBAC00D00F92 /* XCTest.framework */; };
-		15FE2EE7184AFBAC00D00F92 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15FE2EC6184AFBAC00D00F92 /* Foundation.framework */; };
-		15FE2EE8184AFBAC00D00F92 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15FE2ECA184AFBAC00D00F92 /* UIKit.framework */; };
-		15FE2EF0184AFBAC00D00F92 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 15FE2EEE184AFBAC00D00F92 /* InfoPlist.strings */; };
-		15FE2EF2184AFBAC00D00F92 /* ShogiBoardTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 15FE2EF1184AFBAC00D00F92 /* ShogiBoardTests.m */; };
 		15FE2F01184AFD3900D00F92 /* KFTitleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 15FE2EFF184AFD3900D00F92 /* KFTitleViewController.m */; };
 		15FE2F02184AFD3900D00F92 /* KFTitleViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 15FE2F00184AFD3900D00F92 /* KFTitleViewController.xib */; };
 		15FE2F06184B011A00D00F92 /* KFBoardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 15FE2F04184B011A00D00F92 /* KFBoardViewController.m */; };
 		15FE2F07184B011A00D00F92 /* KFBoardViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 15FE2F05184B011A00D00F92 /* KFBoardViewController.xib */; };
 		15FE2F0A184B02BA00D00F92 /* japanese-chess-b02.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 15FE2F09184B02BA00D00F92 /* japanese-chess-b02.jpg */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		15FE2EE9184AFBAC00D00F92 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 15FE2EBB184AFBAC00D00F92 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 15FE2EC2184AFBAC00D00F92;
-			remoteInfo = Kifoo;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		150031EB188D564B003DF2EF /* mokume3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = mokume3.png; path = Resources/Image/mokume3.png; sourceTree = "<group>"; };
@@ -353,11 +338,7 @@
 		15FE2EDB184AFBAC00D00F92 /* KFViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KFViewController.h; sourceTree = "<group>"; };
 		15FE2EDC184AFBAC00D00F92 /* KFViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KFViewController.m; sourceTree = "<group>"; };
 		15FE2EDE184AFBAC00D00F92 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Images.xcassets; sourceTree = "<group>"; };
-		15FE2EE4184AFBAC00D00F92 /* KomaochiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KomaochiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		15FE2EE5184AFBAC00D00F92 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		15FE2EED184AFBAC00D00F92 /* KomaochiTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "KomaochiTests-Info.plist"; sourceTree = "<group>"; };
-		15FE2EEF184AFBAC00D00F92 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		15FE2EF1184AFBAC00D00F92 /* ShogiBoardTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShogiBoardTests.m; sourceTree = "<group>"; };
 		15FE2EFE184AFD3900D00F92 /* KFTitleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KFTitleViewController.h; path = controller/KFTitleViewController.h; sourceTree = "<group>"; };
 		15FE2EFF184AFD3900D00F92 /* KFTitleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KFTitleViewController.m; path = controller/KFTitleViewController.m; sourceTree = "<group>"; };
 		15FE2F00184AFD3900D00F92 /* KFTitleViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = KFTitleViewController.xib; path = controller/KFTitleViewController.xib; sourceTree = "<group>"; };
@@ -394,16 +375,6 @@
 				15FE2ECB184AFBAC00D00F92 /* UIKit.framework in Frameworks */,
 				15D10A901A99E3D50012D97B /* GoogleMobileAds.framework in Frameworks */,
 				15FE2EC7184AFBAC00D00F92 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		15FE2EE1184AFBAC00D00F92 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				15FE2EE6184AFBAC00D00F92 /* XCTest.framework in Frameworks */,
-				15FE2EE8184AFBAC00D00F92 /* UIKit.framework in Frameworks */,
-				15FE2EE7184AFBAC00D00F92 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -800,7 +771,6 @@
 			isa = PBXGroup;
 			children = (
 				15FE2ECC184AFBAC00D00F92 /* Komaochi */,
-				15FE2EEB184AFBAC00D00F92 /* YaguraJosekiTests */,
 				15EF400418AF28B0000A12F6 /* Libraries */,
 				15FE2EC5184AFBAC00D00F92 /* Frameworks */,
 				15FE2EC4184AFBAC00D00F92 /* Products */,
@@ -811,7 +781,6 @@
 			isa = PBXGroup;
 			children = (
 				15FE2EC3184AFBAC00D00F92 /* Komaochi.app */,
-				15FE2EE4184AFBAC00D00F92 /* KomaochiTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -870,25 +839,6 @@
 				15FE2ECF184AFBAC00D00F92 /* InfoPlist.strings */,
 				15FE2ED2184AFBAC00D00F92 /* main.m */,
 				15FE2ED4184AFBAC00D00F92 /* Komaochi-Prefix.pch */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		15FE2EEB184AFBAC00D00F92 /* YaguraJosekiTests */ = {
-			isa = PBXGroup;
-			children = (
-				15FE2EF1184AFBAC00D00F92 /* ShogiBoardTests.m */,
-				15FE2EEC184AFBAC00D00F92 /* Supporting Files */,
-			);
-			name = YaguraJosekiTests;
-			path = ShogiBoardTests;
-			sourceTree = "<group>";
-		};
-		15FE2EEC184AFBAC00D00F92 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				15FE2EED184AFBAC00D00F92 /* KomaochiTests-Info.plist */,
-				15FE2EEE184AFBAC00D00F92 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -1012,24 +962,6 @@
 			productReference = 15FE2EC3184AFBAC00D00F92 /* Komaochi.app */;
 			productType = "com.apple.product-type.application";
 		};
-		15FE2EE3184AFBAC00D00F92 /* KomaochiTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 15FE2EF8184AFBAC00D00F92 /* Build configuration list for PBXNativeTarget "KomaochiTests" */;
-			buildPhases = (
-				15FE2EE0184AFBAC00D00F92 /* Sources */,
-				15FE2EE1184AFBAC00D00F92 /* Frameworks */,
-				15FE2EE2184AFBAC00D00F92 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				15FE2EEA184AFBAC00D00F92 /* PBXTargetDependency */,
-			);
-			name = KomaochiTests;
-			productName = KifooTests;
-			productReference = 15FE2EE4184AFBAC00D00F92 /* KomaochiTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -1042,9 +974,6 @@
 				TargetAttributes = {
 					15FE2EC2184AFBAC00D00F92 = {
 						DevelopmentTeam = 6ED2NMHHUU;
-					};
-					15FE2EE3184AFBAC00D00F92 = {
-						TestTargetID = 15FE2EC2184AFBAC00D00F92;
 					};
 				};
 			};
@@ -1063,7 +992,6 @@
 			projectRoot = "";
 			targets = (
 				15FE2EC2184AFBAC00D00F92 /* Komaochi */,
-				15FE2EE3184AFBAC00D00F92 /* KomaochiTests */,
 			);
 		};
 /* End PBXProject section */
@@ -1142,14 +1070,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		15FE2EE2184AFBAC00D00F92 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				15FE2EF0184AFBAC00D00F92 /* InfoPlist.strings in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -1208,37 +1128,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		15FE2EE0184AFBAC00D00F92 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				15FE2EF2184AFBAC00D00F92 /* ShogiBoardTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		15FE2EEA184AFBAC00D00F92 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 15FE2EC2184AFBAC00D00F92 /* Komaochi */;
-			targetProxy = 15FE2EE9184AFBAC00D00F92 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		15FE2ECF184AFBAC00D00F92 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
 				15FE2ED0184AFBAC00D00F92 /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		15FE2EEE184AFBAC00D00F92 /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				15FE2EEF184AFBAC00D00F92 /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -1279,7 +1175,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 			};
@@ -1312,7 +1208,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -1332,7 +1228,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ShogiBoard/Komaochi-Prefix.pch";
 				INFOPLIST_FILE = "ShogiBoard/Komaochi-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/ShogiBoard/Libraries/GoogleAnalytics",
@@ -1361,7 +1257,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ShogiBoard/Komaochi-Prefix.pch";
 				INFOPLIST_FILE = "ShogiBoard/Komaochi-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/ShogiBoard/Libraries/GoogleAnalytics",
@@ -1373,46 +1269,6 @@
 				PROVISIONING_PROFILE = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
-			};
-			name = Release;
-		};
-		15FE2EF9184AFBAC00D00F92 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Komaochi.app/Komaochi";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "ShogiBoard/Komaochi-Prefix.pch";
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = "ShogiBoardTests/KomaochiTests-Info.plist";
-				PRODUCT_NAME = KomaochiTests;
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
-			};
-			name = Debug;
-		};
-		15FE2EFA184AFBAC00D00F92 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Komaochi.app/Komaochi";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "ShogiBoard/Komaochi-Prefix.pch";
-				INFOPLIST_FILE = "ShogiBoardTests/KomaochiTests-Info.plist";
-				PRODUCT_NAME = KomaochiTests;
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
 			};
 			name = Release;
 		};
@@ -1433,15 +1289,6 @@
 			buildConfigurations = (
 				15FE2EF6184AFBAC00D00F92 /* Debug */,
 				15FE2EF7184AFBAC00D00F92 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		15FE2EF8184AFBAC00D00F92 /* Build configuration list for PBXNativeTarget "KomaochiTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				15FE2EF9184AFBAC00D00F92 /* Debug */,
-				15FE2EFA184AFBAC00D00F92 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
