@@ -66,12 +66,6 @@
 		153ACA331A0F5548004B6BDD /* s_ryu.png in Resources */ = {isa = PBXBuildFile; fileRef = 153ACA151A0F5547004B6BDD /* s_ryu.png */; };
 		153ACA341A0F5548004B6BDD /* s_to.png in Resources */ = {isa = PBXBuildFile; fileRef = 153ACA161A0F5547004B6BDD /* s_to.png */; };
 		153ACA351A0F5548004B6BDD /* s_uma.png in Resources */ = {isa = PBXBuildFile; fileRef = 153ACA171A0F5547004B6BDD /* s_uma.png */; };
-		153ACA391A171833004B6BDD /* KFTitleTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 153ACA371A171833004B6BDD /* KFTitleTableViewController.m */; };
-		153ACA3A1A171833004B6BDD /* KFTitleTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 153ACA381A171833004B6BDD /* KFTitleTableViewController.xib */; };
-		153ACA421A1720A2004B6BDD /* KFTitleWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 153ACA401A1720A2004B6BDD /* KFTitleWebViewController.m */; };
-		153ACA431A1720A2004B6BDD /* KFTitleWebViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 153ACA411A1720A2004B6BDD /* KFTitleWebViewController.xib */; };
-		153ACA4A1A183E46004B6BDD /* KFTitleDetailTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 153ACA481A183E46004B6BDD /* KFTitleDetailTableViewController.m */; };
-		153ACA4B1A183E46004B6BDD /* KFTitleDetailTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 153ACA491A183E46004B6BDD /* KFTitleDetailTableViewController.xib */; };
 		1546ADB51A8B0ED800634566 /* KFMoveTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1546ADB31A8B0ED800634566 /* KFMoveTableViewController.m */; };
 		1546ADB61A8B0ED800634566 /* KFMoveTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1546ADB41A8B0ED800634566 /* KFMoveTableViewController.xib */; };
 		155C456A19FB9C03002D612C /* KFRecordLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = 155C456919FB9C03002D612C /* KFRecordLoader.m */; };
@@ -230,15 +224,6 @@
 		153ACA151A0F5547004B6BDD /* s_ryu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = s_ryu.png; path = Resources/Image/Piece/s_ryu.png; sourceTree = "<group>"; };
 		153ACA161A0F5547004B6BDD /* s_to.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = s_to.png; path = Resources/Image/Piece/s_to.png; sourceTree = "<group>"; };
 		153ACA171A0F5547004B6BDD /* s_uma.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = s_uma.png; path = Resources/Image/Piece/s_uma.png; sourceTree = "<group>"; };
-		153ACA361A171833004B6BDD /* KFTitleTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KFTitleTableViewController.h; path = Controller/KFTitleTableViewController.h; sourceTree = "<group>"; };
-		153ACA371A171833004B6BDD /* KFTitleTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KFTitleTableViewController.m; path = Controller/KFTitleTableViewController.m; sourceTree = "<group>"; };
-		153ACA381A171833004B6BDD /* KFTitleTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = KFTitleTableViewController.xib; path = Controller/KFTitleTableViewController.xib; sourceTree = "<group>"; };
-		153ACA3F1A1720A2004B6BDD /* KFTitleWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KFTitleWebViewController.h; path = Controller/KFTitleWebViewController.h; sourceTree = "<group>"; };
-		153ACA401A1720A2004B6BDD /* KFTitleWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KFTitleWebViewController.m; path = Controller/KFTitleWebViewController.m; sourceTree = "<group>"; };
-		153ACA411A1720A2004B6BDD /* KFTitleWebViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = KFTitleWebViewController.xib; path = Controller/KFTitleWebViewController.xib; sourceTree = "<group>"; };
-		153ACA471A183E46004B6BDD /* KFTitleDetailTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KFTitleDetailTableViewController.h; path = Controller/KFTitleDetailTableViewController.h; sourceTree = "<group>"; };
-		153ACA481A183E46004B6BDD /* KFTitleDetailTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KFTitleDetailTableViewController.m; path = Controller/KFTitleDetailTableViewController.m; sourceTree = "<group>"; };
-		153ACA491A183E46004B6BDD /* KFTitleDetailTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = KFTitleDetailTableViewController.xib; path = Controller/KFTitleDetailTableViewController.xib; sourceTree = "<group>"; };
 		1546ADB21A8B0ED800634566 /* KFMoveTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KFMoveTableViewController.h; path = Controller/KFMoveTableViewController.h; sourceTree = "<group>"; };
 		1546ADB31A8B0ED800634566 /* KFMoveTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KFMoveTableViewController.m; path = Controller/KFMoveTableViewController.m; sourceTree = "<group>"; };
 		1546ADB41A8B0ED800634566 /* KFMoveTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = KFMoveTableViewController.xib; path = Controller/KFMoveTableViewController.xib; sourceTree = "<group>"; };
@@ -432,28 +417,12 @@
 			name = Cell;
 			sourceTree = "<group>";
 		};
-		153ACA3B1A171E1A004B6BDD /* Web */ = {
-			isa = PBXGroup;
-			children = (
-				153ACA3F1A1720A2004B6BDD /* KFTitleWebViewController.h */,
-				153ACA401A1720A2004B6BDD /* KFTitleWebViewController.m */,
-				153ACA411A1720A2004B6BDD /* KFTitleWebViewController.xib */,
-			);
-			name = Web;
-			sourceTree = "<group>";
-		};
 		153ACA461A183DCF004B6BDD /* Match */ = {
 			isa = PBXGroup;
 			children = (
 				158CF7D71A04DD2E00F74429 /* KFMatchTableViewController.h */,
 				158CF7D81A04DD2E00F74429 /* KFMatchTableViewController.m */,
 				158CF7D91A04DD2E00F74429 /* KFMatchTableViewController.xib */,
-				153ACA471A183E46004B6BDD /* KFTitleDetailTableViewController.h */,
-				153ACA481A183E46004B6BDD /* KFTitleDetailTableViewController.m */,
-				153ACA491A183E46004B6BDD /* KFTitleDetailTableViewController.xib */,
-				153ACA361A171833004B6BDD /* KFTitleTableViewController.h */,
-				153ACA371A171833004B6BDD /* KFTitleTableViewController.m */,
-				153ACA381A171833004B6BDD /* KFTitleTableViewController.xib */,
 			);
 			name = Match;
 			sourceTree = "<group>";
@@ -857,7 +826,6 @@
 				1561405E18C1DEF1008E577B /* Record */,
 				15FDCE291A347ABB0048D3DD /* Search */,
 				158CDDCC19E8B28D00FE9BA7 /* Setting */,
-				153ACA3B1A171E1A004B6BDD /* Web */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -1014,7 +982,6 @@
 				15FE2F02184AFD3900D00F92 /* KFTitleViewController.xib in Resources */,
 				153ACA2A1A0F5548004B6BDD /* s_hisha.png in Resources */,
 				153ACA311A0F5548004B6BDD /* s_narikyo.png in Resources */,
-				153ACA4B1A183E46004B6BDD /* KFTitleDetailTableViewController.xib in Resources */,
 				15817A811A3D8D28009AC3F6 /* KFStrategyConditionViewController.xib in Resources */,
 				153ACA251A0F5548004B6BDD /* g_to.png in Resources */,
 				153ACA341A0F5548004B6BDD /* s_to.png in Resources */,
@@ -1039,14 +1006,12 @@
 				15ED8E7119F37F02002B19F4 /* KFWideBoardViewController.xib in Resources */,
 				153ACA321A0F5548004B6BDD /* s_ou.png in Resources */,
 				158CF7DB1A04DD2E00F74429 /* KFMatchTableViewController.xib in Resources */,
-				153ACA431A1720A2004B6BDD /* KFTitleWebViewController.xib in Resources */,
 				153ACA261A0F5548004B6BDD /* g_uma.png in Resources */,
 				152B7B1119B2D0CC00AB82AC /* KFRecordTableViewCell.xib in Resources */,
 				153ACA281A0F5548004B6BDD /* s_gin.png in Resources */,
 				1505FE4118934A51000C0BE8 /* KFSaveRecordViewController.xib in Resources */,
 				15FDCE281A3445CE0048D3DD /* KFSearchRecordViewController.xib in Resources */,
 				158CDDD819E8FCF300FE9BA7 /* komaoto1.wav in Resources */,
-				153ACA3A1A171833004B6BDD /* KFTitleTableViewController.xib in Resources */,
 				153ACA231A0F5548004B6BDD /* g_ou.png in Resources */,
 				153ACA201A0F5548004B6BDD /* g_narigin.png in Resources */,
 				153ACA331A0F5548004B6BDD /* s_ryu.png in Resources */,
@@ -1084,7 +1049,6 @@
 				1512EE1A1865D2EE00A9BA0B /* KFKaku.m in Sources */,
 				15817A761A3D3DD8009AC3F6 /* KFPlayerConditionViewController.m in Sources */,
 				15FE2F01184AFD3900D00F92 /* KFTitleViewController.m in Sources */,
-				153ACA4A1A183E46004B6BDD /* KFTitleDetailTableViewController.m in Sources */,
 				158CDDD019E8B2BF00FE9BA7 /* KFSettingViewController.m in Sources */,
 				15DFF1BA1894E18C0085448E /* KFRecordTableViewController.m in Sources */,
 				150D4C0819FB87CA0043494D /* KFLoadRecordViewController.m in Sources */,
@@ -1103,7 +1067,6 @@
 				155C456A19FB9C03002D612C /* KFRecordLoader.m in Sources */,
 				158CF7DA1A04DD2E00F74429 /* KFMatchTableViewController.m in Sources */,
 				15FE2EDD184AFBAC00D00F92 /* KFViewController.m in Sources */,
-				153ACA421A1720A2004B6BDD /* KFTitleWebViewController.m in Sources */,
 				15FDCE2D1A347B970048D3DD /* KFMatchConditionViewController.m in Sources */,
 				1512EE57186FD30900A9BA0B /* KFNarikei.m in Sources */,
 				1564D71519E144A60089B742 /* KFPromotedPiece.m in Sources */,
@@ -1121,7 +1084,6 @@
 				1512EE4E186AE58E00A9BA0B /* KFCapturedPieceButton.m in Sources */,
 				1561406918C1E007008E577B /* KFSaveCommentViewController.m in Sources */,
 				15213AF118CC4E94003D2947 /* KFCommentBaseViewController.m in Sources */,
-				153ACA391A171833004B6BDD /* KFTitleTableViewController.m in Sources */,
 				159F7EFC1AA5DEFE009BEC72 /* KFTermConditionViewController.m in Sources */,
 				1512EE141865A21E00A9BA0B /* KFSquareButton.m in Sources */,
 				1512EE60186FD33600A9BA0B /* KFRyu.m in Sources */,

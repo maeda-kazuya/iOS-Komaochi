@@ -22,7 +22,6 @@
 #import "KFSearchRecordViewController.h"
 #import "KFSettingViewController.h"
 #import "KFSquareButton.h"
-#import "KFTitleTableViewController.h"
 #import "KFFu.h"
 #import "KFKyosha.h"
 #import "KFKeima.h"
@@ -46,7 +45,6 @@
                                      NADViewDelegate,
                                      KFCommentBaseViewControllerDelegate,
                                      KFSettingViewControllerDelegate,
-                                     KFTitleTableViewControllerDelegate,
                                      KFMoveTableViewControllerDelegate,
                                      KFSearchRecordViewControllerDelegate>
 @end
@@ -75,16 +73,6 @@ SystemSoundID dropSound;
     self.recordTableViewController.delegate = self;
     self.loadRecordViewController = [[KFLoadRecordViewController alloc] init];
     self.loadRecordViewController.delegate = self;
-    
-    // Latest matchTableViewController
-    self.latestMatchTableViewController = [[KFMatchTableViewController alloc] initWithMatchId:MATCH_ID_GENERAL
-                                                                                matchDetailId:MATCH_DETAIL_ID_GENERAL
-                                                                                          url:SHOGI_DB_URL];
-    self.latestMatchTableViewController.delegate = self;
-
-    // MatchTableViewController
-    self.TitleTableViewController = [[KFTitleTableViewController alloc] init];
-    self.TitleTableViewController.delegate = self;
     
     // Comment ViewController
     self.saveCommentViewController = [[KFSaveCommentViewController alloc] init];
@@ -898,21 +886,6 @@ SystemSoundID dropSound;
     }
 }
 
-- (void)showTitleTableViewController {
-    if (UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPhone) {
-        [self presentViewController:self.TitleTableViewController animated:YES completion:NULL];
-    } else {
-        self.TitleTableViewController.preferredContentSize = CGSizeMake(320, 900);
-        self.TitleTablePopoverController = [[UIPopoverController alloc] initWithContentViewController:self.TitleTableViewController];
-        self.TitleTablePopoverController.delegate = self;
-        
-        [self.TitleTablePopoverController presentPopoverFromRect:self.navigationBar.frame
-                                                           inView:self.boardView
-                                         permittedArrowDirections:UIPopoverArrowDirectionAny
-                                                         animated:YES];
-    }
-}
-
 - (void)showLoadRecordViewController {
     if (UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPhone) {
         [self presentViewController:self.loadRecordViewController animated:YES completion:NULL];
@@ -1240,10 +1213,6 @@ SystemSoundID dropSound;
                 break;
             case kLoadMenuIndexMatchList: // Load the latest record list
                 [self showLatestMatchTableViewController];
-                
-                break;
-            case kLoadMenuIndexTitleList: // Check web site for record
-                [self showTitleTableViewController];
                 
                 break;
         }
