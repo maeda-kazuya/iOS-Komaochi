@@ -109,7 +109,7 @@ enum {
     kGetRecordMenuIndexUrl
 };
 
-SystemSoundID dropSound;
+//SystemSoundID dropSound;
 
 @interface KFBoardViewController : GAITrackedViewController <UIPopoverControllerDelegate, UIAlertViewDelegate>
 
