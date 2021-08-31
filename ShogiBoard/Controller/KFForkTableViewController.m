@@ -120,6 +120,9 @@
             boardViewController = [[KFBoardViewController alloc] initWithNibName:@"KFWideBoardViewController" bundle:nil];
         }
 
+        // Show board in full screen
+        boardViewController.modalPresentationStyle = UIModalPresentationFullScreen;
+
         [self presentViewController:boardViewController animated:YES completion:nil];
         
         [boardViewController readRecord:record];
