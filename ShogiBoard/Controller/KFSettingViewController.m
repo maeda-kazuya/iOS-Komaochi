@@ -8,8 +8,9 @@
 
 #import "KFSettingViewController.h"
 #import "KFBoardViewController.h"
-#import "NADView.h"
 #import <GoogleMobileAds/GoogleMobileAds.h>
+
+@import NendAd;
 
 @interface KFSettingViewController () <NADViewDelegate, UIPickerViewDelegate, UIPickerViewDataSource>
 @end

@@ -9,10 +9,11 @@
 #import "KFSaveCommentViewController.h"
 #import "KFMove.h"
 #import "KFRecord.h"
-#import "NADView.h"
 #import "GAI.h"
 #import "GAIDictionaryBuilder.h"
 #import <GoogleMobileAds/GoogleMobileAds.h>
+
+@import NendAd;
 
 @interface KFSaveCommentViewController () <NADViewDelegate>
 @end

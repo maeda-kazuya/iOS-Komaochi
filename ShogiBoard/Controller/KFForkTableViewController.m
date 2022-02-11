@@ -10,8 +10,9 @@
 #import "KFBoardViewController.h"
 #import "KFRecord.h"
 #import "KFRecordTableViewCell.h"
-#import "NADView.h"
 #import <GoogleMobileAds/GoogleMobileAds.h>
+
+@import NendAd;
 
 @interface KFForkTableViewController () <NADViewDelegate>
 @end

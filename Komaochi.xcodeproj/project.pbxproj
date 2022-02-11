@@ -70,7 +70,6 @@
 		1546ADB61A8B0ED800634566 /* KFMoveTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1546ADB41A8B0ED800634566 /* KFMoveTableViewController.xib */; };
 		155C456A19FB9C03002D612C /* KFRecordLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = 155C456919FB9C03002D612C /* KFRecordLoader.m */; };
 		1561405418C172F1008E577B /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1561405318C172F1008E577B /* Security.framework */; };
-		1561405C18C17437008E577B /* NADView_readme.txt in Resources */ = {isa = PBXBuildFile; fileRef = 1561405A18C17437008E577B /* NADView_readme.txt */; };
 		1561406318C1DF57008E577B /* KFCommentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1561406118C1DF57008E577B /* KFCommentViewController.m */; };
 		1561406418C1DF57008E577B /* KFCommentViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1561406218C1DF57008E577B /* KFCommentViewController.xib */; };
 		1561406618C1DFE7008E577B /* KFSaveCommentViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1561406518C1DFE7008E577B /* KFSaveCommentViewController.xib */; };
@@ -120,7 +119,6 @@
 		15EF40FC18AF385F000A12F6 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15EF40FB18AF385F000A12F6 /* AVFoundation.framework */; };
 		15F21ABA19F40C880006C6A9 /* Icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = 15F21AB819F40C880006C6A9 /* Icon-72.png */; };
 		15F21ABC19F40C9B0006C6A9 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 15F21ABB19F40C9B0006C6A9 /* Icon@2x.png */; };
-		15FD39C21B6DB24C007961EE /* libNendAd.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1561405618C17437008E577B /* libNendAd.a */; };
 		15FDCE271A3445CE0048D3DD /* KFSearchRecordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 15FDCE251A3445CE0048D3DD /* KFSearchRecordViewController.m */; };
 		15FDCE281A3445CE0048D3DD /* KFSearchRecordViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 15FDCE261A3445CE0048D3DD /* KFSearchRecordViewController.xib */; };
 		15FDCE2D1A347B970048D3DD /* KFMatchConditionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 15FDCE2B1A347B970048D3DD /* KFMatchConditionViewController.m */; };
@@ -138,6 +136,7 @@
 		15FE2F06184B011A00D00F92 /* KFBoardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 15FE2F04184B011A00D00F92 /* KFBoardViewController.m */; };
 		15FE2F07184B011A00D00F92 /* KFBoardViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 15FE2F05184B011A00D00F92 /* KFBoardViewController.xib */; };
 		15FE2F0A184B02BA00D00F92 /* japanese-chess-b02.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 15FE2F09184B02BA00D00F92 /* japanese-chess-b02.jpg */; };
+		702E23928DDEE388D349C81D /* libPods-Komaochi.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B48B4C343D4643F58C3D343A /* libPods-Komaochi.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -188,8 +187,6 @@
 		15213AEF18CC4E94003D2947 /* KFCommentBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KFCommentBaseViewController.h; path = Controller/KFCommentBaseViewController.h; sourceTree = "<group>"; };
 		15213AF018CC4E94003D2947 /* KFCommentBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KFCommentBaseViewController.m; path = Controller/KFCommentBaseViewController.m; sourceTree = "<group>"; };
 		15216F5419E96E760023E319 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
-		15216F6919EA51410023E319 /* AMoAdView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AMoAdView.h; path = ShogiBoard/Libraries/Amoad/AMoAdView.h; sourceTree = "<group>"; };
-		15216F6A19EA51410023E319 /* libAMoAd_3_0_7.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libAMoAd_3_0_7.a; path = ShogiBoard/Libraries/Amoad/libAMoAd_3_0_7.a; sourceTree = "<group>"; };
 		15216F6C19EA514F0023E319 /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
 		152B7B0D19B2D0CC00AB82AC /* KFRecordTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KFRecordTableViewCell.h; path = View/KFRecordTableViewCell.h; sourceTree = "<group>"; };
 		152B7B0E19B2D0CC00AB82AC /* KFRecordTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KFRecordTableViewCell.m; path = View/KFRecordTableViewCell.m; sourceTree = "<group>"; };
@@ -230,9 +227,6 @@
 		155C456819FB9C03002D612C /* KFRecordLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KFRecordLoader.h; path = Utility/KFRecordLoader.h; sourceTree = "<group>"; };
 		155C456919FB9C03002D612C /* KFRecordLoader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KFRecordLoader.m; path = Utility/KFRecordLoader.m; sourceTree = "<group>"; };
 		1561405318C172F1008E577B /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
-		1561405618C17437008E577B /* libNendAd.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libNendAd.a; sourceTree = "<group>"; };
-		1561405918C17437008E577B /* NADView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NADView.h; sourceTree = "<group>"; };
-		1561405A18C17437008E577B /* NADView_readme.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = NADView_readme.txt; sourceTree = "<group>"; };
 		1561406018C1DF57008E577B /* KFCommentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KFCommentViewController.h; path = Controller/KFCommentViewController.h; sourceTree = "<group>"; };
 		1561406118C1DF57008E577B /* KFCommentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KFCommentViewController.m; path = Controller/KFCommentViewController.m; sourceTree = "<group>"; };
 		1561406218C1DF57008E577B /* KFCommentViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = KFCommentViewController.xib; path = Controller/KFCommentViewController.xib; sourceTree = "<group>"; };
@@ -333,6 +327,9 @@
 		15FE2F04184B011A00D00F92 /* KFBoardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KFBoardViewController.m; path = controller/KFBoardViewController.m; sourceTree = "<group>"; };
 		15FE2F05184B011A00D00F92 /* KFBoardViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = KFBoardViewController.xib; path = controller/KFBoardViewController.xib; sourceTree = "<group>"; };
 		15FE2F09184B02BA00D00F92 /* japanese-chess-b02.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "japanese-chess-b02.jpg"; path = "Resources/Image/japanese-chess-b02.jpg"; sourceTree = "<group>"; };
+		8D2B5A1BB8335B42C5F2B3A3 /* Pods-Komaochi.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Komaochi.release.xcconfig"; path = "Target Support Files/Pods-Komaochi/Pods-Komaochi.release.xcconfig"; sourceTree = "<group>"; };
+		AE73321E143A24137E2DCABE /* Pods-Komaochi.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Komaochi.debug.xcconfig"; path = "Target Support Files/Pods-Komaochi/Pods-Komaochi.debug.xcconfig"; sourceTree = "<group>"; };
+		B48B4C343D4643F58C3D343A /* libPods-Komaochi.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Komaochi.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -340,7 +337,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				15FD39C21B6DB24C007961EE /* libNendAd.a in Frameworks */,
 				15216F6D19EA514F0023E319 /* ImageIO.framework in Frameworks */,
 				15216F5519E96E760023E319 /* QuartzCore.framework in Frameworks */,
 				15D01B8919728FE400D41888 /* libsqlite3.0.dylib in Frameworks */,
@@ -362,6 +358,7 @@
 				15FE2ECB184AFBAC00D00F92 /* UIKit.framework in Frameworks */,
 				15D10A901A99E3D50012D97B /* GoogleMobileAds.framework in Frameworks */,
 				15FE2EC7184AFBAC00D00F92 /* Foundation.framework in Frameworks */,
+				702E23928DDEE388D349C81D /* libPods-Komaochi.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -385,15 +382,6 @@
 				1517059619F4111F006A5AF5 /* Icon-72@2x.png */,
 			);
 			name = "iPad@2x";
-			sourceTree = "<group>";
-		};
-		15216F6819EA51250023E319 /* Amoad */ = {
-			isa = PBXGroup;
-			children = (
-				15216F6919EA51410023E319 /* AMoAdView.h */,
-				15216F6A19EA51410023E319 /* libAMoAd_3_0_7.a */,
-			);
-			name = Amoad;
 			sourceTree = "<group>";
 		};
 		152B7B0B19B1DF4200AB82AC /* Button */ = {
@@ -435,17 +423,6 @@
 				1546ADB41A8B0ED800634566 /* KFMoveTableViewController.xib */,
 			);
 			name = Move;
-			sourceTree = "<group>";
-		};
-		1561405518C17437008E577B /* NendAd */ = {
-			isa = PBXGroup;
-			children = (
-				1561405618C17437008E577B /* libNendAd.a */,
-				1561405918C17437008E577B /* NADView.h */,
-				1561405A18C17437008E577B /* NADView_readme.txt */,
-			);
-			name = NendAd;
-			path = ShogiBoard/Libraries/NendAd;
 			sourceTree = "<group>";
 		};
 		1561405D18C1DEE9008E577B /* Board */ = {
@@ -701,9 +678,7 @@
 		15EF400418AF28B0000A12F6 /* Libraries */ = {
 			isa = PBXGroup;
 			children = (
-				15216F6819EA51250023E319 /* Amoad */,
 				15D01B7519728C2200D41888 /* GoogleAnalytics */,
-				1561405518C17437008E577B /* NendAd */,
 			);
 			name = Libraries;
 			sourceTree = "<group>";
@@ -745,6 +720,7 @@
 				15EF400418AF28B0000A12F6 /* Libraries */,
 				15FE2EC5184AFBAC00D00F92 /* Frameworks */,
 				15FE2EC4184AFBAC00D00F92 /* Products */,
+				287373D80887A82CAB9EC027 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -779,6 +755,7 @@
 				15EF40F318AF29CB000A12F6 /* SystemConfiguration.framework */,
 				15FE2ECA184AFBAC00D00F92 /* UIKit.framework */,
 				15FE2EE5184AFBAC00D00F92 /* XCTest.framework */,
+				B48B4C343D4643F58C3D343A /* libPods-Komaochi.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -913,6 +890,15 @@
 			name = Board;
 			sourceTree = "<group>";
 		};
+		287373D80887A82CAB9EC027 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AE73321E143A24137E2DCABE /* Pods-Komaochi.debug.xcconfig */,
+				8D2B5A1BB8335B42C5F2B3A3 /* Pods-Komaochi.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -920,9 +906,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 15FE2EF5184AFBAC00D00F92 /* Build configuration list for PBXNativeTarget "Komaochi" */;
 			buildPhases = (
+				3B5D9D867F787A164815675F /* [CP] Check Pods Manifest.lock */,
 				15FE2EBF184AFBAC00D00F92 /* Sources */,
 				15FE2EC0184AFBAC00D00F92 /* Frameworks */,
 				15FE2EC1184AFBAC00D00F92 /* Resources */,
+				9D0F2CC88E8A37AD293C466B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -986,7 +974,6 @@
 				15817A811A3D8D28009AC3F6 /* KFStrategyConditionViewController.xib in Resources */,
 				153ACA251A0F5548004B6BDD /* g_to.png in Resources */,
 				153ACA341A0F5548004B6BDD /* s_to.png in Resources */,
-				1561405C18C17437008E577B /* NADView_readme.txt in Resources */,
 				15B46B5C1872584200FDDD0F /* Default-568h@2x.png in Resources */,
 				15FE2EDF184AFBAC00D00F92 /* Images.xcassets in Resources */,
 				150D4C0919FB87CA0043494D /* KFLoadRecordViewController.xib in Resources */,
@@ -1041,6 +1028,49 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3B5D9D867F787A164815675F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Komaochi-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9D0F2CC88E8A37AD293C466B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Komaochi/Pods-Komaochi-resources.sh",
+				"${PODS_ROOT}/NendSDK_iOS/NendAd.embeddedframework/NendAd.framework/Resources/NendAdResource.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/NendAdResource.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Komaochi/Pods-Komaochi-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		15FE2EBF184AFBAC00D00F92 /* Sources */ = {
@@ -1212,11 +1242,12 @@
 		};
 		15FE2EF6184AFBAC00D00F92 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AE73321E143A24137E2DCABE /* Pods-Komaochi.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 3.0.1;
+				CURRENT_PROJECT_VERSION = 3.1.0;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/ShogiBoard/Frameworks",
@@ -1231,8 +1262,11 @@
 					"$(PROJECT_DIR)/ShogiBoard/Libraries/Amoad",
 					"$(PROJECT_DIR)/ShogiBoard/Libraries/NendAd",
 				);
-				MARKETING_VERSION = 3.0;
-				OTHER_LDFLAGS = "-ObjC";
+				MARKETING_VERSION = 3.1;
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"$(inherited)",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.kifoo.komaochi;
 				PRODUCT_NAME = Komaochi;
 				PROVISIONING_PROFILE = "";
@@ -1243,11 +1277,12 @@
 		};
 		15FE2EF7184AFBAC00D00F92 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8D2B5A1BB8335B42C5F2B3A3 /* Pods-Komaochi.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 3.0.1;
+				CURRENT_PROJECT_VERSION = 3.1.0;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/ShogiBoard/Frameworks",
@@ -1262,8 +1297,11 @@
 					"$(PROJECT_DIR)/ShogiBoard/Libraries/Amoad",
 					"$(PROJECT_DIR)/ShogiBoard/Libraries/NendAd",
 				);
-				MARKETING_VERSION = 3.0;
-				OTHER_LDFLAGS = "-ObjC";
+				MARKETING_VERSION = 3.1;
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"$(inherited)",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.kifoo.komaochi;
 				PRODUCT_NAME = Komaochi;
 				PROVISIONING_PROFILE = "";

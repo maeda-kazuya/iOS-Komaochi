@@ -3,3 +3,4 @@ project.xcworkspace
 *xcuserdatad*
 .gitignore~
 Komaochi.xcodeproj/xcuserdatad*
+Pods

@@ -7,8 +7,9 @@
 //
 
 #import "KFPlayerConditionViewController.h"
-#import "NADView.h"
 #import <GoogleMobileAds/GoogleMobileAds.h>
+
+@import NendAd;
 
 @interface KFPlayerConditionViewController () <NADViewDelegate>
 @end

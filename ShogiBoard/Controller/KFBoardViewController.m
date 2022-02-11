@@ -33,10 +33,11 @@
 #import "GAI.h"
 #import "GAITracker.h"
 #import "GAIDictionaryBuilder.h"
-#import "NADView.h"
 #import <Social/Social.h>
 #import <QuartzCore/QuartzCore.h>
 #import <GoogleMobileAds/GoogleMobileAds.h>
+
+@import NendAd;
 
 @interface KFBoardViewController () <KFRecordTableViewControllerDelegate,
                                      KFMatchTableViewControllerDelegate,
