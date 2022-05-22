@@ -117,7 +117,6 @@
 		15EF40F818AF37C7000A12F6 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15EF40F718AF37C7000A12F6 /* AdSupport.framework */; };
 		15EF40FA18AF383B000A12F6 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15EF40F918AF383B000A12F6 /* CoreTelephony.framework */; };
 		15EF40FC18AF385F000A12F6 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15EF40FB18AF385F000A12F6 /* AVFoundation.framework */; };
-		15F21ABA19F40C880006C6A9 /* Icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = 15F21AB819F40C880006C6A9 /* Icon-72.png */; };
 		15F21ABC19F40C9B0006C6A9 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 15F21ABB19F40C9B0006C6A9 /* Icon@2x.png */; };
 		15FDCE271A3445CE0048D3DD /* KFSearchRecordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 15FDCE251A3445CE0048D3DD /* KFSearchRecordViewController.m */; };
 		15FDCE281A3445CE0048D3DD /* KFSearchRecordViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 15FDCE261A3445CE0048D3DD /* KFSearchRecordViewController.xib */; };
@@ -298,7 +297,6 @@
 		15EF40F718AF37C7000A12F6 /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
 		15EF40F918AF383B000A12F6 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
 		15EF40FB18AF385F000A12F6 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
-		15F21AB819F40C880006C6A9 /* Icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-72.png"; path = "Resources/Image/iPad/Icon-72.png"; sourceTree = "<group>"; };
 		15F21ABB19F40C9B0006C6A9 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon@2x.png"; path = "Resources/Image/iPhone/Icon@2x.png"; sourceTree = "<group>"; };
 		15FDCE241A3445CE0048D3DD /* KFSearchRecordViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KFSearchRecordViewController.h; path = Controller/KFSearchRecordViewController.h; sourceTree = "<group>"; };
 		15FDCE251A3445CE0048D3DD /* KFSearchRecordViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KFSearchRecordViewController.m; path = Controller/KFSearchRecordViewController.m; sourceTree = "<group>"; };
@@ -691,14 +689,6 @@
 			name = iPhone;
 			sourceTree = "<group>";
 		};
-		15F21AB619F40C370006C6A9 /* iPad */ = {
-			isa = PBXGroup;
-			children = (
-				15F21AB819F40C880006C6A9 /* Icon-72.png */,
-			);
-			name = iPad;
-			sourceTree = "<group>";
-		};
 		15FDCE291A347ABB0048D3DD /* Search */ = {
 			isa = PBXGroup;
 			children = (
@@ -835,7 +825,6 @@
 				15817A781A3D756B009AC3F6 /* Button */,
 				15B46B5B1872584200FDDD0F /* Default-568h@2x.png */,
 				156F537019F400070087B0B9 /* Default-Portrait.png */,
-				15F21AB619F40C370006C6A9 /* iPad */,
 				1517059519F410F4006A5AF5 /* iPad@2x */,
 				15F21AB519F40C1E0006C6A9 /* iPhone */,
 				150031EB188D564B003DF2EF /* mokume3.png */,
@@ -980,7 +969,6 @@
 				150031EC188D564B003DF2EF /* mokume3.png in Resources */,
 				153ACA241A0F5548004B6BDD /* g_ryu.png in Resources */,
 				153ACA2D1A0F5548004B6BDD /* s_kin.png in Resources */,
-				15F21ABA19F40C880006C6A9 /* Icon-72.png in Resources */,
 				1576F1BA1AECC45800A24B81 /* fork.plist in Resources */,
 				15FDCE2E1A347B970048D3DD /* KFMatchConditionViewController.xib in Resources */,
 				153ACA1C1A0F5548004B6BDD /* g_kaku.png in Resources */,
@@ -1247,7 +1235,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 3.3.0;
+				CURRENT_PROJECT_VERSION = 3.3.1;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/ShogiBoard/Frameworks",
@@ -1282,7 +1270,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 3.3.0;
+				CURRENT_PROJECT_VERSION = 3.3.1;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/ShogiBoard/Frameworks",
