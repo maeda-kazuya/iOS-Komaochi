@@ -37,13 +37,12 @@
 #import <QuartzCore/QuartzCore.h>
 #import <GoogleMobileAds/GoogleMobileAds.h>
 
-@import NendAd;
+//@import NendAd;
 
 @interface KFBoardViewController () <KFRecordTableViewControllerDelegate,
                                      KFMatchTableViewControllerDelegate,
                                      KFSaveRecordViewControllerDelegate,
                                      KFLoadRecordViewControllerDelegate,
-                                     NADViewDelegate,
                                      KFCommentBaseViewControllerDelegate,
                                      KFSettingViewControllerDelegate,
                                      KFMoveTableViewControllerDelegate,
@@ -1712,9 +1711,9 @@ SystemSoundID dropSound;
 }
 
 # pragma mark - NADViewDelegate
--(void)nadViewDidFinishLoad:(NADView *)adView {
-    NSLog(@"delegate nadViewDidFinishLoad:");
-}
+//-(void)nadViewDidFinishLoad:(NADView *)adView {
+//    NSLog(@"delegate nadViewDidFinishLoad:");
+//}
 
 # pragma mark - Action method
 - (IBAction)waitButtonTapped:(id)sender {

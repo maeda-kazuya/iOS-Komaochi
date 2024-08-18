@@ -13,7 +13,7 @@
 #import "GAIDictionaryBuilder.h"
 #import <GoogleMobileAds/GoogleMobileAds.h>
 
-@import NendAd;
+//@import NendAd;
 
 @interface KFLoadRecordViewController () <KFRecordLoaderDelegate>
 @end
@@ -82,8 +82,7 @@
 -(void)nadViewDidFinishLoad:(NADView *)adView {
     NSLog(@"delegate nadViewDidFinishLoad:");
 }
-
- */
+*/
 
 # pragma mark - Action method
 - (IBAction)cancelButtonTapped:(id)sender {

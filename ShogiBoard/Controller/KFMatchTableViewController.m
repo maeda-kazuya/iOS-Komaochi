@@ -14,7 +14,7 @@
 #import "GAIDictionaryBuilder.h"
 #import <GoogleMobileAds/GoogleMobileAds.h>
 
-@import NendAd;
+//@import NendAd;
 
 @interface KFMatchTableViewController () <KFRecordLoaderDelegate>
 @property (strong, nonatomic) KFMatch *selectedMatch;

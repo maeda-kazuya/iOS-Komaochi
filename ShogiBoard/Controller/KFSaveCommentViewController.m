@@ -13,9 +13,9 @@
 #import "GAIDictionaryBuilder.h"
 #import <GoogleMobileAds/GoogleMobileAds.h>
 
-@import NendAd;
+//@import NendAd;
 
-@interface KFSaveCommentViewController () <NADViewDelegate>
+@interface KFSaveCommentViewController ()
 @end
 
 @implementation KFSaveCommentViewController
@@ -93,8 +93,8 @@
 }
 
 # pragma mark - NADViewDelegate
--(void)nadViewDidFinishLoad:(NADView *)adView {
-    NSLog(@"delegate nadViewDidFinishLoad:");
-}
+//-(void)nadViewDidFinishLoad:(NADView *)adView {
+//    NSLog(@"delegate nadViewDidFinishLoad:");
+//}
 
 @end

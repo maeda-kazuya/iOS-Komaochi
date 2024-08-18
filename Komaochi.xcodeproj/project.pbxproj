@@ -1047,11 +1047,13 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-Komaochi/Pods-Komaochi-resources.sh",
-				"${PODS_ROOT}/NendSDK_iOS/NendAd.embeddedframework/NendAd.framework/Resources/NendAdResource.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/Google-Mobile-Ads-SDK/GoogleMobileAdsResources.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/GoogleUserMessagingPlatform/UserMessagingPlatformResources.bundle",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/NendAdResource.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleMobileAdsResources.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/UserMessagingPlatformResources.bundle",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -1235,7 +1237,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 3.3.1;
+				CURRENT_PROJECT_VERSION = 4.0.0;
+				DEVELOPMENT_TEAM = 6ED2NMHHUU;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/ShogiBoard/Frameworks",
@@ -1243,14 +1246,14 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ShogiBoard/Komaochi-Prefix.pch";
 				INFOPLIST_FILE = "ShogiBoard/Komaochi-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/ShogiBoard/Libraries/GoogleAnalytics",
 					"$(PROJECT_DIR)/ShogiBoard/Libraries/Amoad",
 					"$(PROJECT_DIR)/ShogiBoard/Libraries/NendAd",
 				);
-				MARKETING_VERSION = 3.3;
+				MARKETING_VERSION = 4.0;
 				OTHER_LDFLAGS = (
 					"-ObjC",
 					"$(inherited)",
@@ -1270,7 +1273,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 3.3.1;
+				CURRENT_PROJECT_VERSION = 4.0.0;
+				DEVELOPMENT_TEAM = 6ED2NMHHUU;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/ShogiBoard/Frameworks",
@@ -1278,14 +1282,14 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ShogiBoard/Komaochi-Prefix.pch";
 				INFOPLIST_FILE = "ShogiBoard/Komaochi-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/ShogiBoard/Libraries/GoogleAnalytics",
 					"$(PROJECT_DIR)/ShogiBoard/Libraries/Amoad",
 					"$(PROJECT_DIR)/ShogiBoard/Libraries/NendAd",
 				);
-				MARKETING_VERSION = 3.3;
+				MARKETING_VERSION = 4.0;
 				OTHER_LDFLAGS = (
 					"-ObjC",
 					"$(inherited)",

@@ -13,9 +13,9 @@
 #import "GAIDictionaryBuilder.h"
 #import <GoogleMobileAds/GoogleMobileAds.h>
 
-@import NendAd;
+//@import NendAd;
 
-@interface KFRecordTableViewController () <NADViewDelegate>
+@interface KFRecordTableViewController ()
 
 @end
 

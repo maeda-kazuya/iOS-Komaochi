@@ -9,9 +9,9 @@
 #import "KFPlayerConditionViewController.h"
 #import <GoogleMobileAds/GoogleMobileAds.h>
 
-@import NendAd;
+//@import NendAd;
 
-@interface KFPlayerConditionViewController () <NADViewDelegate>
+@interface KFPlayerConditionViewController ()
 @end
 
 @implementation KFPlayerConditionViewController
@@ -22,9 +22,9 @@
     self.playerTextField.clearButtonMode = UITextFieldViewModeAlways;
     
     // Set Nend Ad view
-    [self.nendAdView setNendID:NEND_AD_ID spotID:NEND_SPOT_ID];
-    [self.nendAdView setDelegate:self];
-    [self.nendAdView load];
+//    [self.nendAdView setNendID:NEND_AD_ID spotID:NEND_SPOT_ID];
+//    [self.nendAdView setDelegate:self];
+//    [self.nendAdView load];
     
     // Load AdMob
     self.admobTopBannerView.adUnitID = ADMOB_TOP_UNIT_ID;

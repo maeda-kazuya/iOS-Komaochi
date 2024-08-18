@@ -10,9 +10,9 @@
 #import "KFBoardViewController.h"
 #import <GoogleMobileAds/GoogleMobileAds.h>
 
-@import NendAd;
+//@import NendAd;
 
-@interface KFSettingViewController () <NADViewDelegate, UIPickerViewDelegate, UIPickerViewDataSource>
+@interface KFSettingViewController () <UIPickerViewDelegate, UIPickerViewDataSource>
 @end
 
 @implementation KFSettingViewController
@@ -159,9 +159,9 @@
 }
 
 # pragma mark - NADViewDelegate
--(void)nadViewDidFinishLoad:(NADView *)adView {
-    NSLog(@"delegate nadViewDidFinishLoad:");
-}
+//-(void)nadViewDidFinishLoad:(NADView *)adView {
+//    NSLog(@"delegate nadViewDidFinishLoad:");
+//}
 
 # pragma mark - Private method
 - (void)dismiss {

@@ -18,7 +18,7 @@
 #import "GAIDictionaryBuilder.h"
 #import <GoogleMobileAds/GoogleMobileAds.h>
 
-@import NendAd;
+//@import NendAd;
 
 static const NSInteger kSearchConditionNum = 4;
 
@@ -26,8 +26,7 @@ static const NSInteger kSearchConditionNum = 4;
                                             KFMatchConditionViewControllerDelegate,
                                             KFStrategyConditionViewControllerDelegate,
                                             KFMatchTableViewControllerDelegate,
-                                            KFTermConditionViewControllerDelegate,
-                                            NADViewDelegate>
+                                            KFTermConditionViewControllerDelegate>
 @end
 
 @implementation KFSearchRecordViewController
