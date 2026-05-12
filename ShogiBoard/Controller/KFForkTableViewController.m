@@ -30,17 +30,6 @@
     } else {
         self.navigationItem.title = self.navigationTitle;
     }
-    
-    // Set Nend Ad view
-//    [self.nendBannerView setNendID:NEND_AD_ID spotID:NEND_SPOT_ID];
-//    [self.nendBannerView setDelegate:self];
-//
-//    if (UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPad) {
-//        self.nendBannerView.hidden = YES;
-//    } else {
-//        // Show nend for iPhone
-//        [self.nendBannerView load];
-//    }
 
     // set AdMob unit (publisher) id
     self.admobTopBannerView.adUnitID = ADMOB_TOP_UNIT_ID;
@@ -127,22 +116,5 @@
         [boardViewController transferToMoveIndex:initialIndex.integerValue];
     }
 }
-
-# pragma mark - Nend
-
-//-(void)nadViewDidFinishLoad:(NADView *)adView {
-//    NSLog(@"delegate nadViewDidFinishLoad:");
-//}
-//
-//-(void)nadViewDidReceiveAd:(NADView *)adView {
-//    NSLog(@"delegate nadViewDidReceiveAd:");
-//}
-//
-//-(void)nadViewDidFailToReceiveAd:(NADView *)adView {
-//    NSLog(@"delegate nadViewDidFailToLoad:%@", adView.error);
-//    NSLog(@"Error code:%ld", adView.error.code);
-//    
-//    self.nendBannerView.hidden = YES;
-//}
 
 @end

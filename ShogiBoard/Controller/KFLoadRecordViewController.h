@@ -9,9 +9,6 @@
 #import <UIKit/UIKit.h>
 
 @class GADBannerView;
-@class NADIconLoader;
-@class NADIconView;
-@class NADView;
 @class KFRecord;
 @class KFRecordLoader;
 
@@ -23,13 +20,11 @@
 
 @property (weak, nonatomic) IBOutlet UITextField *titleTextField;
 @property (weak, nonatomic) IBOutlet UIBarButtonItem *cancelButton;
-@property (weak, nonatomic) IBOutlet NADView *nendAdView;
 @property (weak, nonatomic) IBOutlet GADBannerView *admobBannerView;
 @property (weak, nonatomic) IBOutlet GADBannerView *admobBottomBannerView;
 
 @property (weak, nonatomic) id<KFLoadRecordViewControllerDelegate> delegate;
 @property (strong, nonatomic) KFRecordLoader *recordLoader;
-@property (strong, nonatomic) NADIconLoader *iconLoader;
 
 
 - (IBAction)cancelButtonTapped:(id)sender;

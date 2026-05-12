@@ -29,13 +29,6 @@
     [self.titleTextField becomeFirstResponder];
     self.titleTextField.clearButtonMode = UITextFieldViewModeAlways;
 
-    // Set Nend Banner view
-    /*
-    [self.nendAdView setNendID:NEND_AD_ID spotID:NEND_SPOT_ID];
-    [self.nendAdView setDelegate:self];
-    [self.nendAdView load];
-     */
-
     // Set AdMob
     self.admobTopBannerView.adUnitID = ADMOB_TOP_UNIT_ID;
     self.admobTopBannerView.rootViewController = self;
@@ -69,18 +62,6 @@
     // Focus on text field
     [self.titleTextField becomeFirstResponder];
 }
-
-/*
-# pragma mark - NADViewDelegate
--(void)nadViewDidFinishLoad:(NADView *)adView {
-    NSLog(@"delegate nadViewDidFinishLoad:");
-}
-
--(void)nadIconLoaderDidFailToReceiveAd:(NADIconLoader *)iconLoader
-                           nadIconView:(NADIconView *)nadIconView{
-    NSLog(@"delegate nadIconLoaderDidFailToReceiveAd:%@", iconLoader.error);
-}
- */
 
 # pragma mark - Action method
 - (IBAction)cancelButtonTapped:(id)sender {

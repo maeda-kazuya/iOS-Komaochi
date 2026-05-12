@@ -59,16 +59,3 @@
 // AdMob account for Singapore
 #define ADMOB_TOP_UNIT_ID          @"ca-app-pub-5529832718864267/9582321031"
 #define ADMOB_BOTTOM_UNIT_ID       @"ca-app-pub-5529832718864267/9582321031"
-
-
-#define NEND_AD_ID          @"b110b8c82a45dc948ba145b9402a19c04c55f382"
-#define NEND_SPOT_ID        @"398277"
-
-#define NEND_SECOND_AD_ID          @"dc74e1821fe6cfc4ca7e55ab1217c5732858b3c8" // TEST
-#define NEND_SECOND_SPOT_ID        @"144741" // TEST
-
-#define NEND_ICON_AD_ID     @"903daa4d9a28af7988609aa7a20f49bff4a6b353"
-#define NEND_ICON_SPOT_ID   @"248387"
-
-#define APPBANK_AD_ID       @"aef3f367c988e659eb70a960ae19b06ad8a4a1de"
-#define APPBANK_SPOT_ID     @"248384"

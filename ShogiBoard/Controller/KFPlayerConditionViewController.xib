@@ -9,7 +9,6 @@
             <connections>
                 <outlet property="adMobBannerView" destination="uC8-aI-TZl" id="gC0-8i-wbx"/>
                 <outlet property="admobTopBannerView" destination="I9D-YW-Kzt" id="vID-Di-tF7"/>
-                <outlet property="nendAdView" destination="QFY-qM-m2N" id="xJj-AW-tLo"/>
                 <outlet property="playerNavigationItem" destination="KJZ-Pi-wyc" id="R4I-5s-qDM"/>
                 <outlet property="playerTextField" destination="Y2v-Ms-iYD" id="1k2-Fx-QTc"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
@@ -37,10 +36,6 @@
                         </navigationItem>
                     </items>
                 </navigationBar>
-                <view hidden="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="QFY-qM-m2N" userLabel="NADView" customClass="NADView">
-                    <rect key="frame" x="0.0" y="44" width="320" height="50"/>
-                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                </view>
                 <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Y2v-Ms-iYD">
                     <rect key="frame" x="30" y="110" width="260" height="30"/>
                     <fontDescription key="fontDescription" type="system" pointSize="14"/>

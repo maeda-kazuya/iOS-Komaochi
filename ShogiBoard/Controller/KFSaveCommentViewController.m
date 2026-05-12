@@ -37,21 +37,6 @@
     GADRequest *adMobRequest = [GADRequest request];
 
     [self.admobTopBannerView loadRequest:adMobRequest];
-    
-    /*
-    // Set Nend Ad view
-    [self.nendAdView setNendID:NEND_AD_ID spotID:NEND_SPOT_ID];
-    [self.nendAdView setDelegate:self];
-    [self.nendAdView load];
-    
-    //TODO:Fix for showing Ad in iPad
-    if (UI_USER_INTERFACE_IDIOM() != UIUserInterfaceIdiomPhone) {
-        self.nadFirstIconView.hidden = YES;
-        self.nadSecondIconView.hidden = YES;
-        self.nadThirdIconView.hidden = YES;
-        self.nadFourthIconView.hidden = YES;
-    }
-    */
 }
 
 - (void)viewWillAppear:(BOOL)animated {
@@ -79,10 +64,5 @@
         [self.delegate dismissSaveCommentPopover];
     }
 }
-
-# pragma mark - NADViewDelegate
-//-(void)nadViewDidFinishLoad:(NADView *)adView {
-//    NSLog(@"delegate nadViewDidFinishLoad:");
-//}
 
 @end

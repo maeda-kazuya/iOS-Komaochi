@@ -1683,11 +1683,6 @@ SystemSoundID dropSound;
     }
 }
 
-# pragma mark - NADViewDelegate
-//-(void)nadViewDidFinishLoad:(NADView *)adView {
-//    NSLog(@"delegate nadViewDidFinishLoad:");
-//}
-
 # pragma mark - Action method
 - (IBAction)waitButtonTapped:(id)sender {
     // Cancel selected status

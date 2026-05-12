@@ -9,7 +9,6 @@
 #import <UIKit/UIKit.h>
 
 @class GADBannerView;
-@class NADView;
 
 @interface KFForkTableViewController : UIViewController <UITableViewDataSource, UITableViewDelegate>
 
@@ -17,7 +16,6 @@
 @property (strong, nonatomic) NSArray *forkList;
 
 @property (weak, nonatomic) IBOutlet UITableView *tableView;
-@property (weak, nonatomic) IBOutlet NADView *nendBannerView;
 @property (weak, nonatomic) IBOutlet GADBannerView *admobTopBannerView;
 @property (weak, nonatomic) IBOutlet GADBannerView *admobBottomBannerView;
 

@@ -8,7 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@class NADView;
 @class GADBannerView;
 
 @protocol KFSettingViewControllerDelegate <NSObject>
@@ -19,7 +18,6 @@
 
 @interface KFSettingViewController : UIViewController
 
-@property (weak, nonatomic) IBOutlet NADView *nendAdView;
 @property (weak, nonatomic) IBOutlet GADBannerView *admobTopBannerView;
 @property (weak, nonatomic) IBOutlet GADBannerView *largeAdmobBannerView;
 @property (weak, nonatomic) IBOutlet UISegmentedControl *motionSegmentedControl;

@@ -49,13 +49,6 @@
 
     [self.admobBannerView loadRequest:adMobRequest];
     [self.admobBottomBannerView loadRequest:adMobRequest];
-    
-    // Set Nend Banner view
-    /*
-    [self.nendAdView setNendID:NEND_AD_ID spotID:NEND_SPOT_ID];
-    [self.nendAdView setDelegate:self];
-    [self.nendAdView load];
-     */
 }
 
 - (void)viewWillAppear:(BOOL)animated {
@@ -64,13 +57,6 @@
     // Focus on text field
     [self.titleTextField becomeFirstResponder];
 }
-
-/*
-# pragma mark - NADViewDelegate
--(void)nadViewDidFinishLoad:(NADView *)adView {
-    NSLog(@"delegate nadViewDidFinishLoad:");
-}
-*/
 
 # pragma mark - Action method
 - (IBAction)cancelButtonTapped:(id)sender {

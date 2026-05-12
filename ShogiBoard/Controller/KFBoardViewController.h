@@ -23,7 +23,6 @@
 @class KFTitleTableViewController;
 @class KFSquareButton;
 @class GADBannerView;
-@class NADView;
 
 #define PIECE_WIDTH_NORMAL      32
 #define PIECE_HEIGHT_NORMAL     35

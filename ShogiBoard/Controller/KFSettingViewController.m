@@ -155,11 +155,6 @@
     return 9;
 }
 
-# pragma mark - NADViewDelegate
-//-(void)nadViewDidFinishLoad:(NADView *)adView {
-//    NSLog(@"delegate nadViewDidFinishLoad:");
-//}
-
 # pragma mark - Private method
 - (void)dismiss {
     if (UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPhone || [[UIDevice currentDevice].systemVersion floatValue] >= 8.0) {

@@ -17,13 +17,6 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
 
-    // Set Nend Ad view
-    /*
-    [self.nendAdView setNendID:NEND_AD_ID spotID:NEND_SPOT_ID];
-    [self.nendAdView setDelegate:self];
-    [self.nendAdView load];
-     */
-    
     // Load AdMob
     self.admobTopBannerView.adUnitID = ADMOB_TOP_UNIT_ID;
     self.admobTopBannerView.rootViewController = self;

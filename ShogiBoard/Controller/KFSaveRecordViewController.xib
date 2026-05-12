@@ -10,7 +10,6 @@
                 <outlet property="admobBannerView" destination="HKM-9I-dP3" id="v6a-5F-7v7"/>
                 <outlet property="admobTopBannerView" destination="Fhu-Uv-fSe" id="cVv-X0-m1F"/>
                 <outlet property="cancelButton" destination="itC-NG-JEe" id="xv1-H9-5nI"/>
-                <outlet property="nendAdView" destination="aSB-3v-5ZH" id="aUf-5p-0Sr"/>
                 <outlet property="titleTextField" destination="Niz-XB-KsJ" id="5nm-zf-0W8"/>
                 <outlet property="view" destination="1" id="3"/>
             </connections>
@@ -37,10 +36,6 @@
                         </navigationItem>
                     </items>
                 </navigationBar>
-                <view hidden="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="aSB-3v-5ZH" userLabel="Nend Banner View" customClass="NADView">
-                    <rect key="frame" x="0.0" y="44" width="320" height="50"/>
-                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                </view>
                 <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Fhu-Uv-fSe" userLabel="AdMob Top Banner View" customClass="GADBannerView">
                     <rect key="frame" x="0.0" y="44" width="320" height="50"/>
                     <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>

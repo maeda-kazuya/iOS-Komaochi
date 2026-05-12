@@ -11,11 +11,6 @@
                 <outlet property="cancelButton" destination="itC-NG-JEe" id="Bvo-vh-rQP"/>
                 <outlet property="commentNaviItem" destination="rhx-fN-xOa" id="RLK-H3-Wug"/>
                 <outlet property="commentView" destination="bYd-XT-5PP" id="jId-Ca-sBG"/>
-                <outlet property="nadFirstIconView" destination="5RP-AY-H7o" id="v3p-DS-muM"/>
-                <outlet property="nadFourthIconView" destination="3qP-vD-OFo" id="eON-IW-Sc7"/>
-                <outlet property="nadSecondIconView" destination="HSD-tN-WxQ" id="ruq-Na-5PC"/>
-                <outlet property="nadThirdIconView" destination="SQb-2s-bKc" id="w5T-HF-xai"/>
-                <outlet property="nendAdView" destination="wav-84-50C" id="DOH-GN-Mts"/>
                 <outlet property="view" destination="1" id="3"/>
             </connections>
         </placeholder>
@@ -47,29 +42,9 @@
                     <fontDescription key="fontDescription" type="system" pointSize="18"/>
                     <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                 </textView>
-                <view hidden="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="wav-84-50C" userLabel="Nend Ad View" customClass="NADView">
-                    <rect key="frame" x="0.0" y="44" width="320" height="50"/>
-                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                </view>
                 <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="KFZ-t2-F60" userLabel="GAD Banner View (Top)" customClass="GADBannerView">
                     <rect key="frame" x="0.0" y="44" width="320" height="50"/>
                     <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                </view>
-                <view hidden="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="5RP-AY-H7o" customClass="NADIconView">
-                    <rect key="frame" x="3" y="265" width="75" height="75"/>
-                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                </view>
-                <view hidden="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="HSD-tN-WxQ" customClass="NADIconView">
-                    <rect key="frame" x="83" y="265" width="75" height="75"/>
-                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                </view>
-                <view hidden="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="SQb-2s-bKc" customClass="NADIconView">
-                    <rect key="frame" x="163" y="265" width="75" height="75"/>
-                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                </view>
-                <view hidden="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="3qP-vD-OFo" customClass="NADIconView">
-                    <rect key="frame" x="243" y="265" width="75" height="75"/>
-                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                 </view>
             </subviews>
             <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>

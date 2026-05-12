@@ -8,7 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@class NADView;
 @class GADBannerView;
 
 enum {
@@ -27,7 +26,6 @@ enum {
 
 @property (weak, nonatomic) IBOutlet UINavigationItem *playerNavigationItem;
 @property (weak, nonatomic) IBOutlet UITextField *playerTextField;
-@property (weak, nonatomic) IBOutlet NADView *nendAdView;
 @property (weak, nonatomic) IBOutlet GADBannerView *admobTopBannerView;
 @property (weak, nonatomic) IBOutlet GADBannerView *adMobBannerView;
 

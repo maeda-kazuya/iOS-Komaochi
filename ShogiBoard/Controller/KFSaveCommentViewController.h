@@ -9,9 +9,6 @@
 #import <UIKit/UIKit.h>
 #import "KFCommentBaseViewController.h"
 
-@class NADView;
-@class NADIconLoader;
-@class NADIconView;
 @class GADBannerView;
 
 @interface KFSaveCommentViewController : KFCommentBaseViewController
@@ -21,13 +18,6 @@
 @property (weak, nonatomic) IBOutlet UITextView *commentView;
 
 @property (weak, nonatomic) IBOutlet GADBannerView *admobTopBannerView;
-@property (weak, nonatomic) IBOutlet NADView *nendAdView;
-@property (weak, nonatomic) IBOutlet NADIconView *nadFirstIconView;
-@property (weak, nonatomic) IBOutlet NADIconView *nadSecondIconView;
-@property (weak, nonatomic) IBOutlet NADIconView *nadThirdIconView;
-@property (weak, nonatomic) IBOutlet NADIconView *nadFourthIconView;
-
-@property (strong, nonatomic) NADIconLoader *iconLoader;
 
 - (IBAction)cancel:(id)sender;
 - (IBAction)saveComment:(id)sender;

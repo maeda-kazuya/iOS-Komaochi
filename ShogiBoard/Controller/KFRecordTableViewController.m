@@ -34,13 +34,6 @@ static NSString * const KFRecordTableViewCellIdentifier = @"KFRecordTableViewCel
     
     UINib *nib = [UINib nibWithNibName:KFRecordTableViewCellIdentifier bundle:nil];
     [self.recordTableView registerNib:nib forCellReuseIdentifier:@"Cell"];
-    
-    // Set Nend Ad view
-    /*
-    [self.nendAdView setNendID:NEND_AD_ID spotID:NEND_SPOT_ID];
-    [self.nendAdView setDelegate:self];
-    [self.nendAdView load];
-     */
 
     // set AdMob unit (publisher) id
     self.admobTopBannerView.adUnitID = ADMOB_TOP_UNIT_ID;

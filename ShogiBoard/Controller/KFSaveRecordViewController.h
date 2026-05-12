@@ -9,9 +9,6 @@
 #import <UIKit/UIKit.h>
 
 @class GADBannerView;
-@class NADIconLoader;
-@class NADIconView;
-@class NADView;
 
 @protocol KFSaveRecordViewControllerDelegate <NSObject>
 - (void)dismissSaveRecordPopover;
@@ -21,12 +18,10 @@
 
 @property (weak, nonatomic) IBOutlet UITextField *titleTextField;
 @property (weak, nonatomic) IBOutlet UIBarButtonItem *cancelButton;
-@property (weak, nonatomic) IBOutlet NADView *nendAdView;
 @property (weak, nonatomic) IBOutlet GADBannerView *admobTopBannerView;
 @property (weak, nonatomic) IBOutlet GADBannerView *admobBannerView;
 @property (weak, nonatomic) id<KFSaveRecordViewControllerDelegate> delegate;
 
-@property (strong, nonatomic) NADIconLoader *iconLoader;
 @property (strong, nonatomic) NSMutableArray *moveArray;
 @property (strong, nonatomic) NSString *recordTitle;
 

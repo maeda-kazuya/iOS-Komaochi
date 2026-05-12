@@ -10,7 +10,6 @@
                 <outlet property="komaochiPickerView" destination="sOo-ad-OlE" id="X0m-sW-Qib"/>
                 <outlet property="largeAdmobBannerView" destination="efz-0A-1tw" id="eyA-Yd-lQD"/>
                 <outlet property="motionSegmentedControl" destination="Hwi-Op-yFL" id="BC8-m7-zdr"/>
-                <outlet property="nendAdView" destination="ZEL-3K-HPc" id="rkc-eR-RP9"/>
                 <outlet property="soundSwitch" destination="bb5-4v-BCH" id="4E1-Gw-2my"/>
                 <outlet property="turnSwitch" destination="plM-to-Weg" id="j61-ZP-7oG"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
@@ -33,10 +32,6 @@
                         </navigationItem>
                     </items>
                 </navigationBar>
-                <view hidden="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ZEL-3K-HPc" userLabel="NADView" customClass="NADView">
-                    <rect key="frame" x="0.0" y="44" width="320" height="50"/>
-                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                </view>
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="駒の動き" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DXH-DX-IBC">
                     <rect key="frame" x="38" y="130" width="68" height="21"/>
                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
