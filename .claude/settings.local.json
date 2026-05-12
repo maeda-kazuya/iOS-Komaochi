@@ -5,7 +5,9 @@
       "Bash(xcodebuild -workspace Komaochi.xcworkspace -scheme Komaochi -sdk iphonesimulator -configuration Debug -destination 'generic/platform=iOS Simulator' build CODE_SIGNING_ALLOWED=NO)",
       "Bash(pod search *)",
       "Bash(pod update *)",
-      "Bash(xcodebuild -workspace Komaochi.xcworkspace -scheme Komaochi -sdk iphonesimulator -configuration Debug -destination 'generic/platform=iOS Simulator' clean build CODE_SIGNING_ALLOWED=NO)"
+      "Bash(xcodebuild -workspace Komaochi.xcworkspace -scheme Komaochi -sdk iphonesimulator -configuration Debug -destination 'generic/platform=iOS Simulator' clean build CODE_SIGNING_ALLOWED=NO)",
+      "Bash(plutil -lint /Users/kazuya.maeda/project/ios/Komaochi/ShogiBoard/Komaochi-Info.plist)",
+      "Bash(plutil -extract ITSAppUsesNonExemptEncryption raw /Users/kazuya.maeda/project/ios/Komaochi/ShogiBoard/Komaochi-Info.plist)"
     ]
   }
 }
