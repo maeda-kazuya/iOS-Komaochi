@@ -6,7 +6,7 @@
 //  Copyright (c) 2014 Kifoo, Inc. All rights reserved.
 //
 
-#import "GAITrackedViewController.h"
+#import <UIKit/UIKit.h>
 
 @class NADView;
 @class GADBannerView;
@@ -17,7 +17,7 @@
 - (void)dismissSettingPopover;
 @end
 
-@interface KFSettingViewController : GAITrackedViewController
+@interface KFSettingViewController : UIViewController
 
 @property (weak, nonatomic) IBOutlet NADView *nendAdView;
 @property (weak, nonatomic) IBOutlet GADBannerView *admobTopBannerView;

@@ -58,9 +58,6 @@
 
 - (void)viewWillAppear:(BOOL)animated {
     [super viewWillAppear:animated];
-    
-    // Google Analytics
-    self.screenName = @"KFForkTableViewController";
 }
 
 #pragma mark - Table view data source

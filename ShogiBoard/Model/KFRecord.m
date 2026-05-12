@@ -10,8 +10,6 @@
 #import "KFMove.h"
 #import "KFSquareButton.h"
 #import "KFPiece.h"
-#import "GAI.h"
-#import "GAIDictionaryBuilder.h"
 
 @implementation KFRecord
 
@@ -63,13 +61,6 @@
 - (void)saveRecord {
     [self createRecordCSV];
     [self saveRecordInLocal];
-    
-    // Track for Google Analytics
-    id<GAITracker> tracker = [[GAI sharedInstance] defaultTracker];
-    [tracker send:[[GAIDictionaryBuilder createEventWithCategory:@"RecordManagement"
-                                                          action:@"saveRecordInLocalCompleted"
-                                                           label:@"saveRecord"
-                                                           value:nil] build]];
 }
 
 - (NSString *)getRecordText {

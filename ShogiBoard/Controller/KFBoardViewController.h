@@ -8,7 +8,6 @@
 
 #import <AudioToolbox/AudioToolbox.h>
 #import <UIKit/UIKit.h>
-#import "GAITrackedViewController.h"
 
 @class KFCommentViewController;
 @class KFLoadRecordViewController;
@@ -111,7 +110,7 @@ enum {
 
 //SystemSoundID dropSound;
 
-@interface KFBoardViewController : GAITrackedViewController <UIPopoverControllerDelegate, UIAlertViewDelegate>
+@interface KFBoardViewController : UIViewController <UIPopoverControllerDelegate, UIAlertViewDelegate>
 
 @property (strong, nonatomic) KFSquareButton *selectedSquare;
 @property (strong, nonatomic) KFSquareButton *targetSquare;

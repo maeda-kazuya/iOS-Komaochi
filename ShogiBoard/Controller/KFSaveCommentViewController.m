@@ -9,8 +9,6 @@
 #import "KFSaveCommentViewController.h"
 #import "KFMove.h"
 #import "KFRecord.h"
-#import "GAI.h"
-#import "GAIDictionaryBuilder.h"
 #import <GoogleMobileAds/GoogleMobileAds.h>
 
 //@import NendAd;
@@ -63,9 +61,6 @@
 
     self.commentView.text = @"";
     [self.commentView becomeFirstResponder];
-    
-    // Google Analytics
-    self.screenName = @"KFSaveCommentViewController";
 }
 
 - (IBAction)cancel:(id)sender {
@@ -83,13 +78,6 @@
     if (UI_USER_INTERFACE_IDIOM() != UIUserInterfaceIdiomPhone && [self.delegate respondsToSelector:@selector(dismissSaveCommentPopover)]) {
         [self.delegate dismissSaveCommentPopover];
     }
-    
-    // Track for Google Analytics
-    id<GAITracker> tracker = [[GAI sharedInstance] defaultTracker];
-    [tracker send:[[GAIDictionaryBuilder createEventWithCategory:@"CommentManagement"
-                                                          action:@"saveCommentCompleted"
-                                                           label:@"saveComment"
-                                                           value:nil] build]];
 }
 
 # pragma mark - NADViewDelegate

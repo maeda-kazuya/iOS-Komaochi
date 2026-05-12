@@ -30,9 +30,6 @@
 #import "KFGyoku.h"
 #import "KFHisha.h"
 #import "KFKaku.h"
-#import "GAI.h"
-#import "GAITracker.h"
-#import "GAIDictionaryBuilder.h"
 #import <Social/Social.h>
 #import <QuartzCore/QuartzCore.h>
 #import <GoogleMobileAds/GoogleMobileAds.h>
@@ -137,9 +134,6 @@ SystemSoundID dropSound;
         self.navigationBar.hidden = YES;
         self.recordToolBar.hidden = NO;
     }
-
-    // Google Analytics
-    self.screenName = @"KFBoardViewController";
 }
 
 # pragma mark - Private method
@@ -672,25 +666,11 @@ SystemSoundID dropSound;
 - (void)shareOnTwitter {
     SLComposeViewController *twitterPostVC = [SLComposeViewController composeViewControllerForServiceType:SLServiceTypeTwitter];
     [self shareOnSNS:twitterPostVC];
-    
-    // Track for Google Analytics
-    id<GAITracker> tracker = [[GAI sharedInstance] defaultTracker];
-    [tracker send:[[GAIDictionaryBuilder createEventWithCategory:@"OtherServices"
-                                                          action:@"shareImageOnTwitter"
-                                                           label:@"shareImage"
-                                                           value:[NSNumber numberWithInteger:self.currentMoveIndex]] build]];
 }
 
 - (void)shareOnFacebook {
     SLComposeViewController *facebookPostVC =  [SLComposeViewController composeViewControllerForServiceType:SLServiceTypeFacebook];
     [self shareOnSNS:facebookPostVC];
-    
-    // Track for Google Analytics
-    id<GAITracker> tracker = [[GAI sharedInstance] defaultTracker];
-    [tracker send:[[GAIDictionaryBuilder createEventWithCategory:@"OtherServices"
-                                                          action:@"shareImageOnFacebook"
-                                                           label:@"shareImage"
-                                                           value:[NSNumber numberWithInteger:self.currentMoveIndex]] build]];
 }
 
 - (void)shareOnSNS:(SLComposeViewController *)composeViewController {
@@ -736,13 +716,6 @@ SystemSoundID dropSound;
     }
     
     [self presentViewController:activityView animated:YES completion:nil];
-    
-    // Track for Google Analytics
-    id<GAITracker> tracker = [[GAI sharedInstance] defaultTracker];
-    [tracker send:[[GAIDictionaryBuilder createEventWithCategory:@"OtherServices"
-                                                          action:@"shareRecordMethodCalled"
-                                                           label:@"shareRecord"
-                                                           value:[NSNumber numberWithInteger:self.currentMoveIndex]] build]];
 }
 
 - (NSString *)createSNSText {

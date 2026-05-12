@@ -9,8 +9,6 @@
 #import "KFCommentViewController.h"
 #import "KFMove.h"
 #import "KFRecord.h"
-#import "GAI.h"
-#import "GAIDictionaryBuilder.h"
 #import <GoogleMobileAds/GoogleMobileAds.h>
 
 @interface KFCommentViewController ()
@@ -52,9 +50,6 @@
 
     self.commentNaviItem.title = self.navTitle;
     self.commentView.text = [self.commentDic objectForKey:[NSString stringWithFormat:@"%ld", self.currentMoveIndex + 1]];
-    
-    // Google Analytics
-    self.screenName = @"KFCommentViewController";
 }
 
 // Enable transparency of modalView for iPhone
@@ -86,13 +81,6 @@
         if (UI_USER_INTERFACE_IDIOM() != UIUserInterfaceIdiomPhone && [self.delegate respondsToSelector:@selector(dismissCommentPopover)]) {
             [self.delegate dismissCommentPopover];
         }
-        
-        // Track for Google Analytics
-        id<GAITracker> tracker = [[GAI sharedInstance] defaultTracker];
-        [tracker send:[[GAIDictionaryBuilder createEventWithCategory:@"CommentManagement"
-                                                              action:@"updateCommentCompleted"
-                                                               label:@"updateComment"
-                                                               value:nil] build]];
     } else {
         // Edit comment
         self.editButton.title = @"保存";

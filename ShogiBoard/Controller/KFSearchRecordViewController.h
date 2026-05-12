@@ -6,7 +6,7 @@
 //  Copyright (c) 2014 Kifoo, Inc. All rights reserved.
 //
 
-#import "GAITrackedViewController.h"
+#import <UIKit/UIKit.h>
 
 @class KFMatchConditionViewController;
 @class KFMatchTableViewController;
@@ -32,7 +32,7 @@ enum {
 - (void)didFinishLoadRecord:(KFRecord *)record;
 @end
 
-@interface KFSearchRecordViewController : GAITrackedViewController <UITableViewDataSource, UITableViewDelegate>
+@interface KFSearchRecordViewController : UIViewController <UITableViewDataSource, UITableViewDelegate>
 
 @property (weak, nonatomic) IBOutlet UINavigationBar *navigationBar;
 @property (weak, nonatomic) IBOutlet UITableView *tableView;

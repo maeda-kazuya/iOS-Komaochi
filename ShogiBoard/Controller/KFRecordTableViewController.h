@@ -7,7 +7,6 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "GAITrackedViewController.h"
 
 @class KFRecord;
 @class GADBannerView;
@@ -16,7 +15,7 @@
 - (void)didFinishLoadRecord:(KFRecord *)record;
 @end
 
-@interface KFRecordTableViewController : GAITrackedViewController <UITableViewDataSource, UITableViewDelegate>
+@interface KFRecordTableViewController : UIViewController <UITableViewDataSource, UITableViewDelegate>
 
 @property (weak, nonatomic) IBOutlet UITableView *recordTableView;
 @property (weak, nonatomic) IBOutlet GADBannerView *admobTopBannerView;

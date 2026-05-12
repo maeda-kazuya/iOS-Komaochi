@@ -9,8 +9,6 @@
 #import "KFRecordTableViewController.h"
 #import "KFRecord.h"
 #import "KFRecordTableViewCell.h"
-#import "GAI.h"
-#import "GAIDictionaryBuilder.h"
 #import <GoogleMobileAds/GoogleMobileAds.h>
 
 //@import NendAd;
@@ -73,9 +71,6 @@ static NSString * const KFRecordTableViewCellIdentifier = @"KFRecordTableViewCel
     self.recordCount = [self.recordArray count];
 
     [self.recordTableView reloadData];
-    
-    // Google Analytics
-    self.screenName = @"KFRecordTableViewController";
 }
 
 #pragma mark - Table view data source
@@ -133,13 +128,6 @@ static NSString * const KFRecordTableViewCellIdentifier = @"KFRecordTableViewCel
         KFRecord *record = [KFRecord retrieveRecordAtIndex:indexPath.row];
         [self.delegate didFinishLoadRecord:record];
     }
-
-    // Track for Google Analytics
-    id<GAITracker> tracker = [[GAI sharedInstance] defaultTracker];
-    [tracker send:[[GAIDictionaryBuilder createEventWithCategory:@"RecordManagement"
-                                                          action:@"didSelectLocalRecordRow"
-                                                           label:@"readRecord"
-                                                           value:nil] build]];
 }
 
 - (IBAction)backButtonTapped:(id)sender {

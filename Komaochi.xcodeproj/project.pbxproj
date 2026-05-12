@@ -99,12 +99,9 @@
 		159F7EFD1AA5DEFE009BEC72 /* KFTermConditionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 159F7EFB1AA5DEFE009BEC72 /* KFTermConditionViewController.xib */; };
 		15B46B5C1872584200FDDD0F /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 15B46B5B1872584200FDDD0F /* Default-568h@2x.png */; };
 		15B76515208B3988002D0847 /* Asset.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 15B76514208B3988002D0847 /* Asset.xcassets */; };
-		15D01B8119728C7400D41888 /* libGoogleAnalyticsServices.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 15D01B8019728C7400D41888 /* libGoogleAnalyticsServices.a */; };
 		15D01B8319728CB200D41888 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15D01B8219728CB200D41888 /* CoreData.framework */; };
 		15D01B8519728CE800D41888 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 15D01B8419728CE800D41888 /* libz.dylib */; };
-		15D01B8719728F4B00D41888 /* libAdIdAccess.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 15D01B8619728F4B00D41888 /* libAdIdAccess.a */; };
 		15D01B8919728FE400D41888 /* libsqlite3.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 15D01B8819728FE400D41888 /* libsqlite3.0.dylib */; };
-		15D10A901A99E3D50012D97B /* GoogleMobileAds.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15D10A8F1A99E3D50012D97B /* GoogleMobileAds.framework */; };
 		15DFF1BA1894E18C0085448E /* KFRecordTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 15DFF1B81894E18C0085448E /* KFRecordTableViewController.m */; };
 		15DFF1BB1894E18C0085448E /* KFRecordTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 15DFF1B91894E18C0085448E /* KFRecordTableViewController.xib */; };
 		15EB8567188242C600675C17 /* KFMove.m in Sources */ = {isa = PBXBuildFile; fileRef = 15EB8566188242C600675C17 /* KFMove.m */; };
@@ -267,22 +264,9 @@
 		159F7EFB1AA5DEFE009BEC72 /* KFTermConditionViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = KFTermConditionViewController.xib; path = Controller/KFTermConditionViewController.xib; sourceTree = "<group>"; };
 		15B46B5B1872584200FDDD0F /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "Resources/Image/Default-568h@2x.png"; sourceTree = "<group>"; };
 		15B76514208B3988002D0847 /* Asset.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Asset.xcassets; path = SupportingFiles/Asset.xcassets; sourceTree = "<group>"; };
-		15D01B7619728C2200D41888 /* GAI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAI.h; sourceTree = "<group>"; };
-		15D01B7719728C2200D41888 /* GAIDictionaryBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAIDictionaryBuilder.h; sourceTree = "<group>"; };
-		15D01B7819728C2200D41888 /* GAIEcommerceFields.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAIEcommerceFields.h; sourceTree = "<group>"; };
-		15D01B7919728C2200D41888 /* GAIEcommerceProduct.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAIEcommerceProduct.h; sourceTree = "<group>"; };
-		15D01B7A19728C2200D41888 /* GAIEcommerceProductAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAIEcommerceProductAction.h; sourceTree = "<group>"; };
-		15D01B7B19728C2200D41888 /* GAIEcommercePromotion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAIEcommercePromotion.h; sourceTree = "<group>"; };
-		15D01B7C19728C2200D41888 /* GAIFields.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAIFields.h; sourceTree = "<group>"; };
-		15D01B7D19728C2200D41888 /* GAILogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAILogger.h; sourceTree = "<group>"; };
-		15D01B7E19728C2200D41888 /* GAITrackedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAITrackedViewController.h; sourceTree = "<group>"; };
-		15D01B7F19728C2200D41888 /* GAITracker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAITracker.h; sourceTree = "<group>"; };
-		15D01B8019728C7400D41888 /* libGoogleAnalyticsServices.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libGoogleAnalyticsServices.a; sourceTree = "<group>"; };
 		15D01B8219728CB200D41888 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		15D01B8419728CE800D41888 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
-		15D01B8619728F4B00D41888 /* libAdIdAccess.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libAdIdAccess.a; sourceTree = "<group>"; };
 		15D01B8819728FE400D41888 /* libsqlite3.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.0.dylib; path = usr/lib/libsqlite3.0.dylib; sourceTree = SDKROOT; };
-		15D10A8F1A99E3D50012D97B /* GoogleMobileAds.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMobileAds.framework; path = ShogiBoard/Frameworks/GoogleMobileAds.framework; sourceTree = "<group>"; };
 		15DFF1B71894E18C0085448E /* KFRecordTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KFRecordTableViewController.h; path = Controller/KFRecordTableViewController.h; sourceTree = "<group>"; };
 		15DFF1B81894E18C0085448E /* KFRecordTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KFRecordTableViewController.m; path = Controller/KFRecordTableViewController.m; sourceTree = "<group>"; };
 		15DFF1B91894E18C0085448E /* KFRecordTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = KFRecordTableViewController.xib; path = Controller/KFRecordTableViewController.xib; sourceTree = "<group>"; };
@@ -338,7 +322,6 @@
 				15216F6D19EA514F0023E319 /* ImageIO.framework in Frameworks */,
 				15216F5519E96E760023E319 /* QuartzCore.framework in Frameworks */,
 				15D01B8919728FE400D41888 /* libsqlite3.0.dylib in Frameworks */,
-				15D01B8719728F4B00D41888 /* libAdIdAccess.a in Frameworks */,
 				15D01B8519728CE800D41888 /* libz.dylib in Frameworks */,
 				15D01B8319728CB200D41888 /* CoreData.framework in Frameworks */,
 				1561405418C172F1008E577B /* Security.framework in Frameworks */,
@@ -351,10 +334,8 @@
 				15EF40F218AF29BF000A12F6 /* MessageUI.framework in Frameworks */,
 				15EF40F018AF2992000A12F6 /* AudioToolbox.framework in Frameworks */,
 				15EF400318AE4012000A12F6 /* iAd.framework in Frameworks */,
-				15D01B8119728C7400D41888 /* libGoogleAnalyticsServices.a in Frameworks */,
 				15FE2EC9184AFBAC00D00F92 /* CoreGraphics.framework in Frameworks */,
 				15FE2ECB184AFBAC00D00F92 /* UIKit.framework in Frameworks */,
-				15D10A901A99E3D50012D97B /* GoogleMobileAds.framework in Frameworks */,
 				15FE2EC7184AFBAC00D00F92 /* Foundation.framework in Frameworks */,
 				702E23928DDEE388D349C81D /* libPods-Komaochi.a in Frameworks */,
 			);
@@ -632,26 +613,6 @@
 			name = Search;
 			sourceTree = "<group>";
 		};
-		15D01B7519728C2200D41888 /* GoogleAnalytics */ = {
-			isa = PBXGroup;
-			children = (
-				15D01B7619728C2200D41888 /* GAI.h */,
-				15D01B7719728C2200D41888 /* GAIDictionaryBuilder.h */,
-				15D01B7819728C2200D41888 /* GAIEcommerceFields.h */,
-				15D01B7919728C2200D41888 /* GAIEcommerceProduct.h */,
-				15D01B7A19728C2200D41888 /* GAIEcommerceProductAction.h */,
-				15D01B7B19728C2200D41888 /* GAIEcommercePromotion.h */,
-				15D01B7C19728C2200D41888 /* GAIFields.h */,
-				15D01B7D19728C2200D41888 /* GAILogger.h */,
-				15D01B7E19728C2200D41888 /* GAITrackedViewController.h */,
-				15D01B7F19728C2200D41888 /* GAITracker.h */,
-				15D01B8619728F4B00D41888 /* libAdIdAccess.a */,
-				15D01B8019728C7400D41888 /* libGoogleAnalyticsServices.a */,
-			);
-			name = GoogleAnalytics;
-			path = ShogiBoard/Libraries/GoogleAnalytics;
-			sourceTree = "<group>";
-		};
 		15EB85631882429300675C17 /* Piece */ = {
 			isa = PBXGroup;
 			children = (
@@ -676,7 +637,6 @@
 		15EF400418AF28B0000A12F6 /* Libraries */ = {
 			isa = PBXGroup;
 			children = (
-				15D01B7519728C2200D41888 /* GoogleAnalytics */,
 			);
 			name = Libraries;
 			sourceTree = "<group>";
@@ -725,7 +685,6 @@
 		15FE2EC5184AFBAC00D00F92 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				15D10A8F1A99E3D50012D97B /* GoogleMobileAds.framework */,
 				15216F6C19EA514F0023E319 /* ImageIO.framework */,
 				15216F5419E96E760023E319 /* QuartzCore.framework */,
 				15D01B8819728FE400D41888 /* libsqlite3.0.dylib */,
@@ -1241,7 +1200,6 @@
 				DEVELOPMENT_TEAM = 6ED2NMHHUU;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)/ShogiBoard/Frameworks",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ShogiBoard/Komaochi-Prefix.pch";
@@ -1249,8 +1207,6 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)/ShogiBoard/Libraries/GoogleAnalytics",
-					"$(PROJECT_DIR)/ShogiBoard/Libraries/Amoad",
 					"$(PROJECT_DIR)/ShogiBoard/Libraries/NendAd",
 				);
 				MARKETING_VERSION = 4.0;
@@ -1277,7 +1233,6 @@
 				DEVELOPMENT_TEAM = 6ED2NMHHUU;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)/ShogiBoard/Frameworks",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ShogiBoard/Komaochi-Prefix.pch";
@@ -1285,8 +1240,6 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)/ShogiBoard/Libraries/GoogleAnalytics",
-					"$(PROJECT_DIR)/ShogiBoard/Libraries/Amoad",
 					"$(PROJECT_DIR)/ShogiBoard/Libraries/NendAd",
 				);
 				MARKETING_VERSION = 4.0;

@@ -59,9 +59,6 @@
             break;
     }
      */
-    
-    // Google Analytics
-//    self.screenName = @"KFPlayerConditionViewController";
 }
 
 - (IBAction)cancelButtonTapped:(id)sender {

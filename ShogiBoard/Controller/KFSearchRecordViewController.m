@@ -14,8 +14,6 @@
 #import "KFTermCondition.h"
 #import "KFTermConditionViewController.h"
 #import "KFRecordLoader.h"
-#import "GAI.h"
-#import "GAIDictionaryBuilder.h"
 #import <GoogleMobileAds/GoogleMobileAds.h>
 
 //@import NendAd;
@@ -63,9 +61,6 @@ static const NSInteger kSearchConditionNum = 4;
 
 - (void)viewWillAppear:(BOOL)animated {
     [super viewWillAppear:animated];
-    
-    // Google Analytics
-    self.screenName = @"KFSearchRecordViewController";
 }
 
 #pragma mark - Table view data source
@@ -206,13 +201,6 @@ static const NSInteger kSearchConditionNum = 4;
     
     // Save search conditions
     [self saveSearchConditions];
-    
-    // Track by Google Analytics
-    id<GAITracker> tracker = [[GAI sharedInstance] defaultTracker];
-    [tracker send:[[GAIDictionaryBuilder createEventWithCategory:@"SearchAction"
-                                                          action:@"didTapSearchRecordButton"
-                                                           label:@"searchRecord"
-                                                           value:nil] build]];
 }
 
 # pragma mark - KFMatchConditionViewControllerDelegate

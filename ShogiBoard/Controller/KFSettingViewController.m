@@ -52,9 +52,6 @@
     }
     
     [self.komaochiPickerView selectRow:komaochiIndex inComponent:0 animated:NO];
-    
-    // Google Analytics
-    self.screenName = @"KFSettingViewController";
 }
 
 - (IBAction)closeButtonTapped:(id)sender {

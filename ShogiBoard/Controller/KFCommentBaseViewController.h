@@ -7,7 +7,6 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "GAITrackedViewController.h"
 
 @protocol KFCommentBaseViewControllerDelegate <NSObject>
 - (void)didSaveComment;
@@ -15,7 +14,7 @@
 - (void)dismissSaveCommentPopover;
 @end
 
-@interface KFCommentBaseViewController : GAITrackedViewController
+@interface KFCommentBaseViewController : UIViewController
 
 @property (strong, nonatomic) NSString *navTitle;
 @property (weak, nonatomic) id<KFCommentBaseViewControllerDelegate> delegate;

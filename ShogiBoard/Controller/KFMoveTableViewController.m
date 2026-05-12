@@ -8,8 +8,6 @@
 
 #import "KFMoveTableViewController.h"
 #import "KFMove.h"
-#import "GAI.h"
-#import "GAIDictionaryBuilder.h"
 #import <GoogleMobileAds/GoogleMobileAds.h>
 
 @interface KFMoveTableViewController ()
@@ -40,9 +38,6 @@
     if (indexPath && indexPath.row < [self.moveArray count]) {
         [self.tableView scrollToRowAtIndexPath:indexPath atScrollPosition:UITableViewScrollPositionTop animated:YES];
     }
-    
-    // Google Analytics
-    self.screenName = @"KFMoveTableViewController";
 }
 
 - (void)didReceiveMemoryWarning {
@@ -81,13 +76,6 @@
     }
     
     [self dismissViewControllerAnimated:YES completion:NULL];
-    
-    // Track by Google Analytics
-    id<GAITracker> tracker = [[GAI sharedInstance] defaultTracker];
-    [tracker send:[[GAIDictionaryBuilder createEventWithCategory:@"MoveManagement"
-                                                          action:@"didSelectMoveRow"
-                                                           label:@"selectMove"
-                                                           value:nil] build]];
 }
 
 - (IBAction)backButtonTapped:(id)sender {

@@ -68,9 +68,6 @@
 
     // Focus on text field
     [self.titleTextField becomeFirstResponder];
-    
-    // Google Analytics
-    self.screenName = @"KFSaveRecordViewController";
 }
 
 /*

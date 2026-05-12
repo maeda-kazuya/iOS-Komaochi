@@ -6,7 +6,7 @@
 //  Copyright (c) 2015 Kifoo, Inc. All rights reserved.
 //
 
-#import "GAITrackedViewController.h"
+#import <UIKit/UIKit.h>
 
 @class GADBannerView;
 @class KFTermCondition;
@@ -15,7 +15,7 @@
 - (void)didSelectTerm:(KFTermCondition *)termCondition;
 @end
 
-@interface KFTermConditionViewController : GAITrackedViewController
+@interface KFTermConditionViewController : UIViewController
 
 @property (weak, nonatomic) IBOutlet UIDatePicker *startDatePicker;
 @property (weak, nonatomic) IBOutlet UIDatePicker *endDatePicker;

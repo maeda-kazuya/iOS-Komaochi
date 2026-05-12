@@ -10,8 +10,6 @@
 #import "KFMatch.h"
 #import "KFRecord.h"
 #import "KFRecordLoader.h"
-#import "GAI.h"
-#import "GAIDictionaryBuilder.h"
 #import <GoogleMobileAds/GoogleMobileAds.h>
 
 //@import NendAd;
@@ -72,9 +70,6 @@
 
 - (void)viewWillAppear:(BOOL)animated {
     [super viewWillAppear:animated];
-
-    // Google Analytics
-    self.screenName = @"KFMatchTableViewController";
 }
 
 - (void)onRefresh {
@@ -144,13 +139,6 @@
     
     // Save the position of selected record row
     [self saveRecordRowIndex:indexPath.row];
-    
-    // Track by Google Analytics
-    id<GAITracker> tracker = [[GAI sharedInstance] defaultTracker];
-    [tracker send:[[GAIDictionaryBuilder createEventWithCategory:@"MatchManagement"
-                                                          action:@"didSelectMatchRecordRow"
-                                                           label:@"loadMatch"
-                                                           value:nil] build]];
 }
 
 # pragma mark - KFRecordLoaderDelegate

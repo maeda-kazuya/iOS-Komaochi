@@ -6,7 +6,7 @@
 //  Copyright (c) 2014 Kifoo, Inc. All rights reserved.
 //
 
-#import "GAITrackedViewController.h"
+#import <UIKit/UIKit.h>
 
 @class GADBannerView;
 
@@ -44,7 +44,7 @@ enum {
 - (void)didSelectStrategy:(NSString *)strategyName;
 @end
 
-@interface KFStrategyConditionViewController : GAITrackedViewController <UITableViewDataSource, UITableViewDelegate>
+@interface KFStrategyConditionViewController : UIViewController <UITableViewDataSource, UITableViewDelegate>
 
 @property (strong, nonatomic) NSString *strategyName;
 @property (weak, nonatomic) id<KFStrategyConditionViewControllerDelegate> delegate;

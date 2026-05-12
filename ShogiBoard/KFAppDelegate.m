@@ -10,7 +10,6 @@
 #import "KFTitleViewController.h"
 #import "KFBoardViewController.h"
 #import "KFForkTableViewController.h"
-#import "GAI.h"
 
 @implementation KFAppDelegate
 
@@ -30,16 +29,6 @@
     }
      */
 
-    // Google analytics
-    // Optional: automatically send uncaught exceptions to Google Analytics.
-    [GAI sharedInstance].trackUncaughtExceptions = YES;
-    
-    // Optional: set Google Analytics dispatch interval to e.g. 20 seconds.
-    [GAI sharedInstance].dispatchInterval = 20;
-    
-    // Initialize tracker. Replace with your tracking ID.
-    [[GAI sharedInstance] trackerWithTrackingId:@"UA-52769596-40"];
-    
     [self.window makeKeyAndVisible];
     
     return YES;

@@ -6,7 +6,7 @@
 //  Copyright (c) 2014 Kifoo, Inc. All rights reserved.
 //
 
-#import "GAITrackedViewController.h"
+#import <UIKit/UIKit.h>
 
 @class GADBannerView;
 
@@ -14,7 +14,7 @@
 - (void)didSelectMatchName:(NSString *)matchName;
 @end
 
-@interface KFMatchConditionViewController : GAITrackedViewController <UITableViewDataSource, UITableViewDelegate>
+@interface KFMatchConditionViewController : UIViewController <UITableViewDataSource, UITableViewDelegate>
 
 @property (strong, nonatomic) NSString *matchName;
 @property (weak, nonatomic) id<KFMatchConditionViewControllerDelegate> delegate;

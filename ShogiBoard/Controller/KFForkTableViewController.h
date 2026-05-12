@@ -6,12 +6,12 @@
 //  Copyright (c) 2015 Kifoo, Inc. All rights reserved.
 //
 
-#import "GAITrackedViewController.h"
+#import <UIKit/UIKit.h>
 
 @class GADBannerView;
 @class NADView;
 
-@interface KFForkTableViewController : GAITrackedViewController <UITableViewDataSource, UITableViewDelegate>
+@interface KFForkTableViewController : UIViewController <UITableViewDataSource, UITableViewDelegate>
 
 @property (strong, nonatomic) NSString *navigationTitle;
 @property (strong, nonatomic) NSArray *forkList;

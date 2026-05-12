@@ -9,8 +9,6 @@
 #import "KFLoadRecordViewController.h"
 #import "KFRecord.h"
 #import "KFRecordLoader.h"
-#import "GAI.h"
-#import "GAIDictionaryBuilder.h"
 #import <GoogleMobileAds/GoogleMobileAds.h>
 
 //@import NendAd;
@@ -65,16 +63,6 @@
 
     // Focus on text field
     [self.titleTextField becomeFirstResponder];
-    
-    // Google Analytics
-    self.screenName = @"KFLoadRecordViewController";
-    
-    // Track for Google Analytics
-    id<GAITracker> tracker = [[GAI sharedInstance] defaultTracker];
-    [tracker send:[[GAIDictionaryBuilder createEventWithCategory:@"OtherServices"
-                                                          action:@"loadRecordByUrlViewWillAppear"
-                                                           label:@"loadRecordByUrl"
-                                                           value:nil] build]];
 }
 
 /*
@@ -101,13 +89,6 @@
     if ([self.delegate respondsToSelector:@selector(didFinishLoadRecord:)]) {
         [self.delegate didFinishLoadRecord:record];
     }
-
-    // Track for Google Analytics
-    id<GAITracker> tracker = [[GAI sharedInstance] defaultTracker];
-    [tracker send:[[GAIDictionaryBuilder createEventWithCategory:@"OtherServices"
-                                                          action:@"loadRecordByUrlFinished"
-                                                           label:@"loadRecordByUrl"
-                                                           value:nil] build]];
 }
 
 @end

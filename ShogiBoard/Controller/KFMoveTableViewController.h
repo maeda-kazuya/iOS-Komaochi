@@ -6,7 +6,7 @@
 //  Copyright (c) 2015 Kifoo, Inc. All rights reserved.
 //
 
-#import "GAITrackedViewController.h"
+#import <UIKit/UIKit.h>
 
 @class GADBannerView;
 
@@ -14,7 +14,7 @@
 - (void)transferToMoveIndex:(NSInteger)targetMoveIndex;
 @end
 
-@interface KFMoveTableViewController : GAITrackedViewController <UITableViewDataSource, UITableViewDelegate>
+@interface KFMoveTableViewController : UIViewController <UITableViewDataSource, UITableViewDelegate>
 
 @property (strong, nonatomic) NSMutableArray *moveArray;
 @property (weak, nonatomic) id<KFMoveTableViewControllerDelegate> delegate;

@@ -7,7 +7,6 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "GAITrackedViewController.h"
 
 @class GADBannerView;
 @class NADIconLoader;
@@ -18,7 +17,7 @@
 - (void)dismissSaveRecordPopover;
 @end
 
-@interface KFSaveRecordViewController : GAITrackedViewController
+@interface KFSaveRecordViewController : UIViewController
 
 @property (weak, nonatomic) IBOutlet UITextField *titleTextField;
 @property (weak, nonatomic) IBOutlet UIBarButtonItem *cancelButton;

@@ -6,7 +6,7 @@
 //  Copyright (c) 2014 Kifoo, Inc. All rights reserved.
 //
 
-#import "GAITrackedViewController.h"
+#import <UIKit/UIKit.h>
 
 @class NADView;
 @class GADBannerView;
@@ -20,7 +20,7 @@ enum {
 - (void)didSelectPlayerName:(NSString *)playerName index:(NSInteger)playerIndex;
 @end
 
-@interface KFPlayerConditionViewController : GAITrackedViewController
+@interface KFPlayerConditionViewController : UIViewController
 
 @property (nonatomic) NSInteger playerIndex;
 @property (weak, nonatomic) id<KFPlayerConditionViewControllerDelegate> delegate;

@@ -6,7 +6,7 @@
 //  Copyright (c) 2014 Kifoo, Inc. All rights reserved.
 //
 
-#import "GAITrackedViewController.h"
+#import <UIKit/UIKit.h>
 
 @class GADBannerView;
 @class NADIconLoader;
@@ -19,7 +19,7 @@
 - (void)didFinishLoadRecord:(KFRecord *)record;
 @end
 
-@interface KFLoadRecordViewController : GAITrackedViewController
+@interface KFLoadRecordViewController : UIViewController
 
 @property (weak, nonatomic) IBOutlet UITextField *titleTextField;
 @property (weak, nonatomic) IBOutlet UIBarButtonItem *cancelButton;
