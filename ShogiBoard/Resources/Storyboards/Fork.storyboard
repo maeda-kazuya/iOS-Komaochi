@@ -23,13 +23,6 @@
                                     <constraint firstAttribute="height" constant="50" id="AUk-gR-Qjn"/>
                                 </constraints>
                             </view>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7cZ-Te-fm6" userLabel="Nend Banner View" customClass="NADView">
-                                <rect key="frame" x="0.0" y="0.0" width="600" height="50"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="50" id="9FO-gC-tbj"/>
-                                </constraints>
-                            </view>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="Vr2-jz-C4U">
                                 <rect key="frame" x="0.0" y="50" width="600" height="456"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -59,11 +52,8 @@
                             <constraint firstAttribute="trailing" secondItem="bBu-Ly-2dP" secondAttribute="trailing" id="10E-bi-8Pz"/>
                             <constraint firstItem="bBu-Ly-2dP" firstAttribute="trailing" secondItem="Vr2-jz-C4U" secondAttribute="trailing" id="3M9-un-CYz"/>
                             <constraint firstItem="bBu-Ly-2dP" firstAttribute="top" secondItem="XHL-nT-znG" secondAttribute="bottom" id="3Zp-Uf-j9P"/>
-                            <constraint firstItem="7cZ-Te-fm6" firstAttribute="leading" secondItem="F41-PZ-YjC" secondAttribute="leading" id="4lb-NQ-Ogb"/>
                             <constraint firstItem="bBu-Ly-2dP" firstAttribute="leading" secondItem="F41-PZ-YjC" secondAttribute="leading" id="AqW-1k-aLJ"/>
                             <constraint firstAttribute="bottom" secondItem="bBu-Ly-2dP" secondAttribute="bottom" constant="506" id="DkP-lj-LKR"/>
-                            <constraint firstItem="7cZ-Te-fm6" firstAttribute="top" secondItem="XHL-nT-znG" secondAttribute="bottom" id="EyD-BA-LfD"/>
-                            <constraint firstItem="Vr2-jz-C4U" firstAttribute="top" secondItem="7cZ-Te-fm6" secondAttribute="bottom" id="IOh-tV-fVR"/>
                             <constraint firstItem="Vr2-jz-C4U" firstAttribute="top" secondItem="bBu-Ly-2dP" secondAttribute="bottom" id="KcZ-Uz-hxS"/>
                             <constraint firstAttribute="trailing" secondItem="A52-LD-OZp" secondAttribute="trailing" id="MCr-Es-JOO"/>
                             <constraint firstAttribute="trailing" secondItem="Vr2-jz-C4U" secondAttribute="trailing" id="P1E-hX-jFk"/>
@@ -77,7 +67,6 @@
                             <constraint firstItem="bBu-Ly-2dP" firstAttribute="trailing" secondItem="A52-LD-OZp" secondAttribute="trailing" id="e5F-0j-BUO"/>
                             <constraint firstItem="Vr2-jz-C4U" firstAttribute="top" secondItem="bBu-Ly-2dP" secondAttribute="bottom" constant="-120" id="fFc-SJ-8ai"/>
                             <constraint firstItem="IgG-Ae-Gq7" firstAttribute="top" secondItem="A52-LD-OZp" secondAttribute="bottom" id="ijF-89-c0c"/>
-                            <constraint firstAttribute="trailing" secondItem="7cZ-Te-fm6" secondAttribute="trailing" id="jMn-tV-MuP"/>
                             <constraint firstAttribute="trailing" secondItem="Vr2-jz-C4U" secondAttribute="trailing" id="kak-jJ-qvE"/>
                             <constraint firstItem="Vr2-jz-C4U" firstAttribute="top" secondItem="F41-PZ-YjC" secondAttribute="top" id="qzI-7w-oDS"/>
                             <constraint firstItem="Vr2-jz-C4U" firstAttribute="leading" secondItem="F41-PZ-YjC" secondAttribute="leading" id="rMq-xV-kTh"/>
@@ -107,7 +96,6 @@
                     <connections>
                         <outlet property="admobBottomBannerView" destination="A52-LD-OZp" id="33f-wo-yPs"/>
                         <outlet property="admobTopBannerView" destination="bBu-Ly-2dP" id="lJJ-Q2-Z4v"/>
-                        <outlet property="nendBannerView" destination="7cZ-Te-fm6" id="Hhx-MN-Ay1"/>
                         <outlet property="tableView" destination="Vr2-jz-C4U" id="l9h-qz-Tlt"/>
                     </connections>
                 </viewController>

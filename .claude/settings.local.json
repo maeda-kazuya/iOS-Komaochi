@@ -2,7 +2,10 @@
   "permissions": {
     "allow": [
       "Bash(pod install *)",
-      "Bash(xcodebuild -workspace Komaochi.xcworkspace -scheme Komaochi -sdk iphonesimulator -configuration Debug -destination 'generic/platform=iOS Simulator' build CODE_SIGNING_ALLOWED=NO)"
+      "Bash(xcodebuild -workspace Komaochi.xcworkspace -scheme Komaochi -sdk iphonesimulator -configuration Debug -destination 'generic/platform=iOS Simulator' build CODE_SIGNING_ALLOWED=NO)",
+      "Bash(pod search *)",
+      "Bash(pod update *)",
+      "Bash(xcodebuild -workspace Komaochi.xcworkspace -scheme Komaochi -sdk iphonesimulator -configuration Debug -destination 'generic/platform=iOS Simulator' clean build CODE_SIGNING_ALLOWED=NO)"
     ]
   }
 }
