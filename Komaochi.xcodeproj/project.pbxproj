@@ -106,7 +106,6 @@
 		15DFF1BB1894E18C0085448E /* KFRecordTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 15DFF1B91894E18C0085448E /* KFRecordTableViewController.xib */; };
 		15EB8567188242C600675C17 /* KFMove.m in Sources */ = {isa = PBXBuildFile; fileRef = 15EB8566188242C600675C17 /* KFMove.m */; };
 		15ED8E7119F37F02002B19F4 /* KFWideBoardViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 15ED8E7019F37F02002B19F4 /* KFWideBoardViewController.xib */; };
-		15EF400318AE4012000A12F6 /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15EF400218AE4012000A12F6 /* iAd.framework */; };
 		15EF40F018AF2992000A12F6 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15EF40EF18AF2992000A12F6 /* AudioToolbox.framework */; };
 		15EF40F218AF29BF000A12F6 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15EF40F118AF29BF000A12F6 /* MessageUI.framework */; };
 		15EF40F418AF29CB000A12F6 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15EF40F318AF29CB000A12F6 /* SystemConfiguration.framework */; };
@@ -273,7 +272,6 @@
 		15EB8565188242C600675C17 /* KFMove.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KFMove.h; path = Model/KFMove.h; sourceTree = "<group>"; };
 		15EB8566188242C600675C17 /* KFMove.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KFMove.m; path = Model/KFMove.m; sourceTree = "<group>"; };
 		15ED8E7019F37F02002B19F4 /* KFWideBoardViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = KFWideBoardViewController.xib; path = Controller/KFWideBoardViewController.xib; sourceTree = "<group>"; };
-		15EF400218AE4012000A12F6 /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
 		15EF40EF18AF2992000A12F6 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 		15EF40F118AF29BF000A12F6 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
 		15EF40F318AF29CB000A12F6 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
@@ -333,7 +331,6 @@
 				15EF40F418AF29CB000A12F6 /* SystemConfiguration.framework in Frameworks */,
 				15EF40F218AF29BF000A12F6 /* MessageUI.framework in Frameworks */,
 				15EF40F018AF2992000A12F6 /* AudioToolbox.framework in Frameworks */,
-				15EF400318AE4012000A12F6 /* iAd.framework in Frameworks */,
 				15FE2EC9184AFBAC00D00F92 /* CoreGraphics.framework in Frameworks */,
 				15FE2ECB184AFBAC00D00F92 /* UIKit.framework in Frameworks */,
 				15FE2EC7184AFBAC00D00F92 /* Foundation.framework in Frameworks */,
@@ -634,13 +631,6 @@
 			name = Move;
 			sourceTree = "<group>";
 		};
-		15EF400418AF28B0000A12F6 /* Libraries */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = Libraries;
-			sourceTree = "<group>";
-		};
 		15F21AB519F40C1E0006C6A9 /* iPhone */ = {
 			isa = PBXGroup;
 			children = (
@@ -667,7 +657,6 @@
 			isa = PBXGroup;
 			children = (
 				15FE2ECC184AFBAC00D00F92 /* Komaochi */,
-				15EF400418AF28B0000A12F6 /* Libraries */,
 				15FE2EC5184AFBAC00D00F92 /* Frameworks */,
 				15FE2EC4184AFBAC00D00F92 /* Products */,
 				287373D80887A82CAB9EC027 /* Pods */,
@@ -696,7 +685,6 @@
 				15FE2EC8184AFBAC00D00F92 /* CoreGraphics.framework */,
 				15EF40F918AF383B000A12F6 /* CoreTelephony.framework */,
 				15FE2EC6184AFBAC00D00F92 /* Foundation.framework */,
-				15EF400218AE4012000A12F6 /* iAd.framework */,
 				15EF40F118AF29BF000A12F6 /* MessageUI.framework */,
 				1561405318C172F1008E577B /* Security.framework */,
 				157C88FF18B087260043C0A9 /* Social.framework */,
@@ -1136,7 +1124,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 			};
@@ -1183,7 +1171,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
